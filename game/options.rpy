@@ -49,7 +49,7 @@ define build.name = "Bathory"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -117,6 +117,11 @@ define config.window_hide_transition = Dissolve(.2)
 
 
 ## Preference defaults #########################################################
+
+
+## Disable rollback
+
+define config.rollback_enabled = False
 
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
