@@ -392,10 +392,6 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
         hbox:
 
-            ## Reserve space for the navigation section.
-            frame:
-                style "game_menu_navigation_frame"
-
             frame:
                 style "game_menu_content_frame"
 
@@ -432,12 +428,18 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
                     transclude
 
+                ## Reserve space for the navigation section.
+                frame:
+                    style "game_menu_navigation_frame"
+
     use navigation
 
-    textbutton _("Return"):
-        style "return_button"
+    # Only add the Return button if in the main menu, else use "Continue"
+    if main_menu:
+        textbutton _("Return"):
+            style "return_button"
 
-        action Return()
+            action Return()
 
     label title
 
@@ -474,7 +476,7 @@ style game_menu_content_frame:
     top_margin 15
 
 style game_menu_viewport:
-    xsize 1380
+    xsize gui.navigation_xpos - 80
 
 style game_menu_vscrollbar:
     unscrollable gui.unscrollable
@@ -493,16 +495,13 @@ style game_menu_label_text:
 
 style return_button:
     xpos gui.navigation_xpos
+    xalign 1.0
     yalign 1.0
     yoffset -45
 
-
 ## About screen ################################################################
 ##
-## This screen gives credit and copyright information about the game and Ren'Py.
-##
-## There's nothing special about this screen, and hence it also serves as an
-## example of how to make a custom screen.
+## This screen gives content warning information.
 
 screen about():
 
@@ -511,20 +510,12 @@ screen about():
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
-    use game_menu(_("About"), scroll="viewport"):
+    use game_menu(_("Content warning"), scroll="viewport"):
 
         style_prefix "about"
 
-        vbox:
-
-            label "[config.name!t]"
-            text _("Version [config.version!t]\n")
-
-            ## gui.about is usually set in options.rpy.
-            if gui.about:
-                text "[gui.about!t]\n"
-
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+        if gui.about:
+            text "[gui.about!t]\n"
 
 
 style about_label is gui_label

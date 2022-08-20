@@ -29,8 +29,9 @@ define config.version = "0.2"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-""")
+define gui.about = _p("""This game contains fantasy racism and parental burn-out, as well as mentions of recreational drug use, celebrity harassement, poisonning, death and murder.
+
+It also involves elements based on frog biology, that would not be acceptable for humans, in particular child abandonment and mentions of cannibalism.""")
 
 
 ## A short name for the game used for executables and directories in the built
