@@ -110,12 +110,17 @@ screen say(who, what):
 
         text what id "what"
 
+screen csay(who, what):
+    style_prefix "csay"
 
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+    fixed:
+        frame:
+            id "namebox"
+            style "namebox"
+            text who id "who"
 
+        frame:
+            text what id "what"
 
 ## Make the namebox available for styling through the Character object.
 init python:
@@ -131,22 +136,15 @@ style namebox_label is say_label
 
 
 style window:
-    xalign 0.5
-    xfill True
+    xalign 0.05
+    xsize 700
     yalign gui.textbox_yalign
-    ysize gui.textbox_height
+    yminimum gui.textbox_min_height
+    ymaximum gui.textbox_max_height
+    ysize None
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Frame("gui/textbox_client.png", 31, 31, 31, 31)
 
-style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
 
 style say_label:
     properties gui.text_properties("name", accent=True)
@@ -160,6 +158,56 @@ style say_dialogue:
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
 
+style csay:
+    xpos 0.5
+    ypos 0.5
+
+style csay_frame:
+    # our background picture
+    background Frame("gui/textbox_client.png", 31, 31, 31, 31)
+
+    # position
+    xpos 840
+    ypos 480
+
+    # These are the distance between the text area and frame outer edge
+    left_padding 38
+    top_padding 38
+    right_padding 38
+    bottom_padding 38
+
+    minimum (800, 110)
+    maximum (800, 330)
+
+    # What pixel of the frame is used to position the frame
+    anchor (1.0, 1.0)
+
+style csay_text:
+    xsize None # needed - otherwise it uses a gui setting
+    align (0,0) # also likely needed
+
+    # You could include your standard font specific stuff
+    color "#F00"
+    size 40
+
+style namebox:
+    # What pixel of the frame is used to position the frame
+    anchor (0.0, 0.0)
+
+    # position
+    xpos 40
+    ypos 20
+
+    # These are the distance between the text area and frame outer edge
+    left_padding 38
+    top_padding 38
+    right_padding 38
+    bottom_padding 38
+
+    minimum (30, 110)
+    maximum (800, 110)
+
+    background Frame("gui/textbox_client.png", gui.namebox_borders)
 
 ## Input screen ################################################################
 ##

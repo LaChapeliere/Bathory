@@ -3,7 +3,20 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define p = Character()
+define c = Character("Stranger", screen="csay", what_style="csay_text") # Add ctc for click-to-continue
+define fey = Character("Frogey", kind=c)
+define fwey = Character("Frogwey", kind=c)
+define fie = Character("Froggie", kind=c)
+define tx = Character("Toadlax", kind=c)
+define fe = Character("Froxune", kind=c)
+define ca = Character("Croakma", kind=c)
+define ts = Character("Taddeus", kind=c)
+
+transform client_pos:
+    zoom 0.9
+    xalign 0.55
+    yalign 0
 
 
 # The game starts here.
@@ -13,24 +26,21 @@ label start:
     # Set default game menu to the Preferences screen
     $ _game_menu_screen = "preferences"
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
 
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+    jump testscene
 
     return
+
+label testscene:
+
+    scene bg inside
+
+    show client toadlax beginning at client_pos
+
+    show counter
+
+    tx "Hello my friend, welcome to the bath bubble bubble. This is a good place to be. Don't you think so? The bubble extend to about 160 characters."
+
+    show client happy at client_pos behind counter
+
+    tx "Again"
