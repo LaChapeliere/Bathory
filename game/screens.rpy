@@ -82,33 +82,9 @@ style frame:
 ################################################################################
 
 
-## Say screen ##################################################################
-##
-## The say screen is used to display dialogue to the player. It takes two
-## parameters, who and what, which are the name of the speaking character and
-## the text to be displayed, respectively. (The who parameter can be None if no
-## name is given.)
-##
-## This screen must create a text displayable with id "what", as Ren'Py uses
-## this to manage text display. It can also create displayables with id "who"
-## and id "window" to apply style properties.
+## Say screens ##################################################################
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
-
-screen say(who, what):
-    style_prefix "say"
-
-    window:
-        id "window"
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
-
-        text what id "what"
 
 screen csay(who, what):
     style_prefix "csay"
@@ -122,126 +98,80 @@ screen csay(who, what):
         frame:
             text what id "what"
 
+screen psay(who, what):
+    style_prefix "psay"
+
+    fixed:
+
+        frame:
+            text what id "what"
+
 ## Make the namebox available for styling through the Character object.
 init python:
     config.character_id_prefixes.append('namebox')
 
-style window is default
-style say_label is default
-style say_dialogue is default
-style say_thought is say_dialogue
-
 style namebox is default
-style namebox_label is say_label
 
+style namebox:
+    # What pixel of the frame is used to position the frame
+    anchor gui.name_anchor
 
-style window:
-    xalign 0.05
-    xsize 700
-    yalign gui.textbox_yalign
-    yminimum gui.textbox_min_height
-    ymaximum gui.textbox_max_height
-    ysize None
+    # position
+    xpos gui.name_xpos
+    ypos gui.name_ypos
 
-    background Frame("gui/textbox_client.png", 31, 31, 31, 31)
+    # These are the distance between the text area and frame outer edge
+    padding gui.textbox_padding
 
+    minimum (gui.namebox_width, gui.textbox_min_height)
+    maximum (gui.textbox_width, gui.textbox_max_height)
 
-style say_label:
+    background Frame("gui/textbox_client.png", gui.textbox_borders)
+
+    # Text styling
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
-    yalign 0.5
-
-style say_dialogue:
-    properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
-style csay:
-    xpos 0.5
-    ypos 0.5
+    yalign gui.name_yalign
 
 style csay_frame:
     # our background picture
-    background Frame("gui/textbox_client.png", 31, 31, 31, 31)
-
-    # position
-    xpos 840
-    ypos 480
-
-    # These are the distance between the text area and frame outer edge
-    left_padding 38
-    top_padding 38
-    right_padding 38
-    bottom_padding 38
-
-    minimum (800, 110)
-    maximum (800, 330)
+    background Frame("gui/textbox_client.png", gui.textbox_borders)
 
     # What pixel of the frame is used to position the frame
     anchor (1.0, 1.0)
+    # position
+    xpos 840
+    ypos 480
+    # size
+    minimum (gui.textbox_width, gui.textbox_min_height)
+    maximum (gui.textbox_width, gui.textbox_max_height)
 
-style csay_text:
+    # These are the distance between the text area and frame outer edge
+    padding gui.textbox_padding
+
+style psay_frame:
+    # our background picture
+    background Frame("gui/textbox_player.png", gui.textbox_borders)
+
+    # What pixel of the frame is used to position the frame
+    anchor (0.0, 1.0)
+    # position
+    xpos 1000
+    ypos 1060
+    #size
+    minimum (gui.textbox_width, gui.textbox_min_height)
+    maximum (gui.textbox_width, gui.textbox_max_height)
+
+    # These are the distance between the text area and frame outer edge
+    padding gui.textbox_padding
+
+style say_text:
     xsize None # needed - otherwise it uses a gui setting
     align (0,0) # also likely needed
 
     # You could include your standard font specific stuff
     color "#F00"
     size 40
-
-style namebox:
-    # What pixel of the frame is used to position the frame
-    anchor (0.0, 0.0)
-
-    # position
-    xpos 40
-    ypos 20
-
-    # These are the distance between the text area and frame outer edge
-    left_padding 38
-    top_padding 38
-    right_padding 38
-    bottom_padding 38
-
-    minimum (30, 110)
-    maximum (800, 110)
-
-    background Frame("gui/textbox_client.png", gui.namebox_borders)
-
-## Input screen ################################################################
-##
-## This screen is used to display renpy.input. The prompt parameter is used to
-## pass a text prompt in.
-##
-## This screen must create an input displayable with id "input" to accept the
-## various input parameters.
-##
-## https://www.renpy.org/doc/html/screen_special.html#input
-
-screen input(prompt):
-    style_prefix "input"
-
-    window:
-
-        vbox:
-            xalign gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
-
-            text prompt style "input_prompt"
-            input id "input"
-
-style input_prompt is default
-
-style input_prompt:
-    xalign gui.dialogue_text_xalign
-    properties gui.text_properties("input_prompt")
-
-style input:
-    xalign gui.dialogue_text_xalign
-    xmaximum gui.dialogue_width
 
 
 ## Choice screen ###############################################################
@@ -255,29 +185,41 @@ style input:
 screen choice(items):
     style_prefix "choice"
 
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+    fixed:
+
+        frame:
+
+            vbox:
+                for i in items:
+                    hbox:
+                        image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
+                        textbutton i.caption action i.action
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
 ## menu captions will be displayed as empty buttons.
 define config.narrator_menu = True
 
-
+style choice_frame is psay_frame
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
 
-style choice_vbox:
-    xalign 0.5
-    ypos 405
-    yanchor 0.5
+style choice_frame:
+    ymaximum gui.choicebox_max_height
 
+style choice_vbox:
+    xalign 0.0
     spacing gui.choice_spacing
+
+style choice_hbox:
+    yalign 0.5
+    spacing 15
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    background None
+    top_padding 6 # Align with arrow
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
