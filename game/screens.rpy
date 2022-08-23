@@ -172,7 +172,7 @@ style say_text:
     # You could include your standard font specific stuff
     color "#F00"
     size 40
-
+    
 
 ## Choice screen ###############################################################
 ##
@@ -219,7 +219,7 @@ style choice_hbox:
 style choice_button is default:
     properties gui.button_properties("choice_button")
     background None
-    top_padding 6 # Align with arrow
+    top_padding 1 # Align with arrow
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
