@@ -26,6 +26,9 @@ label start:
     # Set default game menu to the Preferences screen
     $ _game_menu_screen = "preferences"
 
+    # Show button to access menu
+    show screen access_menu
+
 
     jump testscene
 

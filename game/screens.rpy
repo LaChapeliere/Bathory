@@ -794,3 +794,17 @@ style notify_frame:
 
 style notify_text:
     properties gui.text_properties("notify")
+
+
+## Access menu screen ###############################################################
+##
+## A simple button to access the game menu (by default the parameters)
+
+screen access_menu():
+    #if renpy.get_screen("navigation") == False:
+    imagebutton:
+        at Transform(zoom=0.3)
+        anchor (1.0, 0.0)
+        align (0.995, 0.01)
+        idle "/gui/button/pause_idle.png"
+        action ShowMenu("preferences")
