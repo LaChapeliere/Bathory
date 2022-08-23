@@ -4,14 +4,14 @@
 # name of the character.
 
 define p = Character(screen="psay", what_style="say_text")
-define c = Character("Stranger", screen="csay", what_style="say_text") # Add ctc for click-to-continue
-define fey = Character("Frogey", kind=c)
-define fwey = Character("Frogwey", kind=c)
-define fie = Character("Froggie", kind=c)
-define tx = Character("Toadlax", kind=c)
-define fe = Character("Froxune", kind=c)
-define ca = Character("Croakma", kind=c)
-define ts = Character("Taddeus", kind=c)
+define c = Character("Stranger", screen="csay", what_style="say_text", show_tint="#ffffff") # Add ctc for click-to-continue
+define fey = Character("Frogey", kind=c, show_tint="#62CBEE")
+define fwey = Character("Frogwey", kind=c, show_tint="#795349")
+define fie = Character("Froggie", kind=c, show_tint="#9CC151")
+define tx = Character("Toadlax", kind=c, show_tint="#939070")
+define fe = Character("Froxune", kind=c, show_tint="#E29C6A")
+define ca = Character("Croakma", kind=c, show_tint="#469BE2")
+define ts = Character("Taddeus", kind=c, show_tint="#E0A92A")
 
 transform client_pos:
     zoom 0.9

@@ -52,6 +52,9 @@ define gui.text_color = u'#333333'
 define gui.interface_text_color = u'#333333'
 
 
+## Tint color for the player's dialogue box
+define gui.player_tint = u'#ffffff'
+
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.

@@ -86,16 +86,18 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen csay(who, what):
+screen csay(who, what, tint):
     style_prefix "csay"
 
     fixed:
         frame:
+            at Transform(matrixcolor=TintMatrix(tint)) # Tint the box
             id "namebox"
             style "namebox"
             text who id "who"
 
         frame:
+            at Transform(matrixcolor=TintMatrix(tint)) # Tint the box
             text what id "what"
 
 screen psay(who, what):
@@ -104,6 +106,7 @@ screen psay(who, what):
     fixed:
 
         frame:
+            at Transform(matrixcolor=TintMatrix(gui.player_tint)) # Tint the box
             text what id "what"
 
 ## Make the namebox available for styling through the Character object.
@@ -169,10 +172,11 @@ style say_text:
     xsize None # needed - otherwise it uses a gui setting
     align (0,0) # also likely needed
 
-    # You could include your standard font specific stuff
-    color "#F00"
-    size 40
-    
+    # Text styling
+    font gui.text_font
+    color gui.text_color
+    size gui.text_size
+
 
 ## Choice screen ###############################################################
 ##
@@ -188,6 +192,7 @@ screen choice(items):
     fixed:
 
         frame:
+            at Transform(matrixcolor=TintMatrix(gui.player_tint)) # Tint the box
 
             vbox:
                 for i in items:
