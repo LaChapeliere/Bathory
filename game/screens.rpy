@@ -132,9 +132,12 @@ style namebox:
     background Frame("gui/textbox_client.png", gui.textbox_borders)
 
     # Text styling
-    properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign gui.name_yalign
+
+style say_label:
+    # Style the text in the namebox
+    size gui.name_text_size
 
 style csay_frame:
     # our background picture
@@ -801,10 +804,105 @@ style notify_text:
 ## A simple button to access the game menu (by default the parameters)
 
 screen access_menu():
-    #if renpy.get_screen("navigation") == False:
     imagebutton:
         at Transform(zoom=0.3)
         anchor (1.0, 0.0)
         align (0.995, 0.01)
         idle "/gui/button/pause_idle.png"
         action ShowMenu("preferences")
+
+
+## Ingredients screen
+##
+## Imagebuttons for the ingredients, inactive but visible during dialogue
+
+init python:
+
+    def add_to_bathball(ingredient):
+        global bathball_info
+        global bathball_color
+
+        # Store info
+        bathball_info.append(ingredient_info[ingredient]["name"])
+
+        # Update visual
+        bathball_color = bathball_color * TintMatrix(ingredient_info[ingredient]["colour"])
+
+        # Next step
+        if len(bathball_info) == 1:
+            renpy.show_screen("psay", who="", what="One down, two to go!")
+        elif len(bathball_info) == 2:
+            renpy.show_screen("psay", who="", what="Just one more ingredient...")
+        elif len(bathball_info) == 3:
+            renpy.show_screen("psay", who="", what="One bathbomb to go!")
+            renpy.hide_screen("bathball")
+        else:
+            renpy.show_screen("psay", who="", what="Something went wrong, please contact costumer service!")
+
+screen ingredients():
+    style_prefix "ingredients"
+    hbox:
+        for i in ingredient_info.keys():
+            imagebutton:
+                idle ["/images/props/ingredient " + i + ".png"]
+                action [SensitiveIf(crafting_session),
+                    Hide("csay"), # Shouldn't be necessary, just in case
+                    Hide("choice"), # Shouldn't be necessary, just in case
+                    Hide("psay"),
+                    Show("ingredient_confirm", ingredient = i)]
+                yalign 1.0
+
+screen ingredient_confirm(ingredient):
+    style_prefix "ingredient_confirm"
+
+    fixed:
+
+        frame:
+            has vbox
+            at Transform(matrixcolor=TintMatrix(gui.player_tint)) # Tint the box
+            text ingredient_info[ingredient]["name"] style "ingredient_name"
+            text ingredient_info[ingredient]["description"]
+            hbox:
+                image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
+                textbutton "Add" action [Function(add_to_bathball, ingredient=ingredient), Hide("ingredient_confirm")]
+            hbox:
+                image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
+                textbutton "Put back" action Hide("ingredient_confirm")
+
+screen bathball():
+    style_prefix "bathball"
+
+    hbox:
+        at screen_dissolve
+        image "/images/props/bathBall.png":
+            at Transform(matrixcolor=bathball_color)
+
+
+
+style ingredients_hbox:
+    # Position
+    xpos 60
+    ypos 820
+    spacing 60
+
+style ingredient_confirm_frame is psay_frame
+
+style ingredient_confirm_vbox:
+    spacing 15
+
+style ingredient_name:
+    color gui.accent_color
+    size gui.name_text_size
+
+style ingredient_confirm_hbox is choice_hbox
+style ingredient_confirm_button is choice_button
+style ingredient_confirm_button_text is choice_button_text
+
+style bathball_hbox:
+    xalign 0.43
+    ypos 680
+
+transform screen_dissolve:
+    on hide:
+        alpha 1.0
+        linear .25 alpha 0
