@@ -11,7 +11,7 @@ define fie = Character("Froggie", kind=c, show_tint="#9CC151")
 define tx = Character("Toadlax", kind=c, show_tint="#939070")
 define fe = Character("Froxune", kind=c, show_tint="#E29C6A")
 define ca = Character("Croakma", kind=c, show_tint="#469BE2")
-define ts = Character("Taddeus", kind=c, show_tint="#E0A92A")
+define ts = Character("Taddeus Pole", kind=c, show_tint="#E0A92A")
 $ current_character = ""
 
 transform client_pos:
@@ -19,7 +19,7 @@ transform client_pos:
     xalign 0.55
     yalign 0
 
-# Info for the ingredients
+# Info for the ingredients and crafting
 init python:
     crafting_session = False
 
@@ -73,7 +73,7 @@ init python:
     bathball_results = {"fff": (0,0), "tx": (0,0), "fe": (0,0), "ca": (0,0), "ts": (0,0)}
 
     def debug_result(tuple):
-        string = "The result of this bathball is "
+        string = "*The result of this bathball is "
         if tuple[0] > 0:
             string += "high"
         else:
@@ -83,7 +83,7 @@ init python:
             string += "high"
         else:
             string += "low"
-        string += " pleasure."
+        string += " pleasure.*"
         return string
 
 # The game starts here.
@@ -97,23 +97,36 @@ label start:
     show screen access_menu
     show screen ingredients
 
+    scene bg inside
+    show counter zorder 100
 
-    jump testscene
+    call toadlax_intro
+
+    call toadlax_postbath_fork
 
     return
 
 label testscene:
 
-    scene bg inside
-
     show client toadlax beginning at client_pos
     $ current_character = "tx"
-
     show counter
 
-    p "I'm going to make you a bathball!"
+    p "Welcome to... {w=1}Oh! Toadlax, long time not seen!"
+    tx "Well, you know how hard it is to travel outside of festival time..."
+    tx "{cps=*4}I'd visit more often otherwise.{/cps}"
+    p "Don't sweat, I understand!"
+    p "How are you doing? Do you have plans to do some opne mics this year?"
+    tx "I wish, but I actually got a pretty fancy job this year!"
+    tx "I doubt I'll have any time in the evenings to go singing..."
+    p "Too bad, I'd have come listen to you..."
+    p "Your singing always lift my heart!"
 
-    jump craftingscene
+    show client bored
+
+    tx "Yes, well, that wasn't the opinion of the temple masters, was it?"
+
+    return
 
 
 label craftingscene:
@@ -123,7 +136,7 @@ label craftingscene:
     $ config.keymap['dismiss'] = []
     $ config.keymap["rollforward"] = []
 
-    p "I need to add three ingredients from the shelf."
+    p "*I need to add three ingredients from the shelf.*"
 
     $ crafting_session = True
 
@@ -145,7 +158,7 @@ label craftingscene:
     $ temp = debug_result(bathball_results[current_character])
     p "[temp]"
 
-    jump testscene
+    return
 
 
 label testmenu:

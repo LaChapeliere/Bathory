@@ -845,11 +845,11 @@ init python:
 
         # Next step
         if len(bathball_info) == 1:
-            renpy.show_screen("psay", who="", what="One down, two to go!")
+            renpy.show_screen("psay", who="", what="*One down, two to go!*")
         elif len(bathball_info) == 2:
-            renpy.show_screen("psay", who="", what="Just one more ingredient...")
+            renpy.show_screen("psay", who="", what="*Just one more ingredient...*")
         elif len(bathball_info) == 3:
-            renpy.show_screen("psay", who="", what="And one bathbomb to go!")
+            renpy.show_screen("psay", who="", what="*And one bathbomb to go!*")
             bathball_results[current_character] = compute_result()
             renpy.hide_screen("bathball")
         else:
