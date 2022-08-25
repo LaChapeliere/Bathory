@@ -72,6 +72,19 @@ init python:
     bathball_color = TintMatrix("#ffffff")
     bathball_results = {"fff": (0,0), "tx": (0,0), "fe": (0,0), "ca": (0,0), "ts": (0,0)}
 
+    def debug_result(tuple):
+        string = "The result of this bathball is "
+        if tuple[0] > 0:
+            string += "high"
+        else:
+            string += "low"
+        string += " energy and "
+        if tuple[1] > 0:
+            string += "high"
+        else:
+            string += "low"
+        string += " pleasure."
+        return string
 
 # The game starts here.
 
@@ -119,13 +132,18 @@ label craftingscene:
     while len(bathball_info) < 3:
         $ renpy.pause(0.1)
 
+    # Reset bathball info
     $ crafting_session = False
     $ bathball_info = []
+    $ bathball_color = TintMatrix("#ffffff")
 
     # Enable ctc
     $ _skipping = True
     $ config.keymap['dismiss'] = [ 'mouseup_1', 'K_RETURN', 'K_SPACE', 'K_KP_ENTER', 'K_SELECT' ]
     $ config.keymap["rollforward"] = [ 'mousedown_5', 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ]
+
+    $ temp = debug_result(bathball_results[current_character])
+    p "[temp]"
 
     jump testscene
 

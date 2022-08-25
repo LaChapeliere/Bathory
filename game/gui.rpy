@@ -99,7 +99,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 
 ## The height of the textbox containing dialogue.
 define gui.textbox_min_height = 110
-define gui.textbox_max_height = 330
+define gui.textbox_max_height = 360
 define gui.textbox_width = 800
 
 ## The borders of the dialogue and name box

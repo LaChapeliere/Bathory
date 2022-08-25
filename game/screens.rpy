@@ -818,12 +818,27 @@ screen access_menu():
 
 init python:
 
+    def compute_result():
+        global bathball_info
+        global ingredient_info
+
+        energy = 0
+        pleasure = 0
+
+        for i in bathball_info:
+            energy += ingredient_info[i]["energy_modifyer"]
+            pleasure += ingredient_info[i]["pleasure_modifyer"]
+
+        return (energy, pleasure)
+
     def add_to_bathball(ingredient):
         global bathball_info
         global bathball_color
+        global current_character
+        global bathball_results
 
         # Store info
-        bathball_info.append(ingredient_info[ingredient]["name"])
+        bathball_info.append(ingredient)
 
         # Update visual
         bathball_color = bathball_color * TintMatrix(ingredient_info[ingredient]["colour"])
@@ -834,7 +849,8 @@ init python:
         elif len(bathball_info) == 2:
             renpy.show_screen("psay", who="", what="Just one more ingredient...")
         elif len(bathball_info) == 3:
-            renpy.show_screen("psay", who="", what="One bathbomb to go!")
+            renpy.show_screen("psay", who="", what="And one bathbomb to go!")
+            bathball_results[current_character] = compute_result()
             renpy.hide_screen("bathball")
         else:
             renpy.show_screen("psay", who="", what="Something went wrong, please contact costumer service!")
