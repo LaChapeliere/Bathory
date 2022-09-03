@@ -199,9 +199,11 @@ screen choice(items):
 
             vbox:
                 for i in items:
-                    hbox:
-                        image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
-                        textbutton i.caption action i.action
+                    button:
+                        action i.action
+                        idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
+                        hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
+                        text i.caption
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
@@ -211,7 +213,7 @@ define config.narrator_menu = True
 style choice_frame is psay_frame
 style choice_vbox is vbox
 style choice_button is button
-style choice_button_text is button_text
+style choice_text is button_text
 
 style choice_frame:
     ymaximum gui.choicebox_max_height
@@ -220,16 +222,13 @@ style choice_vbox:
     xalign 0.0
     spacing gui.choice_spacing
 
-style choice_hbox:
-    yalign 0.5
-    spacing 15
-
 style choice_button is default:
     properties gui.button_properties("choice_button")
     background None
-    top_padding 1 # Align with arrow
+    top_padding 5
+    left_padding 65
 
-style choice_button_text is default:
+style choice_text is default:
     properties gui.button_text_properties("choice_button")
 
 ################################################################################
@@ -809,6 +808,7 @@ screen access_menu():
         anchor (1.0, 0.0)
         align (0.995, 0.01)
         idle "/gui/button/pause_idle.png"
+        hover "/gui/button/pause_hover.png"
         action ShowMenu("preferences")
 
 
@@ -878,12 +878,17 @@ screen ingredient_confirm(ingredient):
             at Transform(matrixcolor=TintMatrix(gui.player_tint)) # Tint the box
             text ingredient_info[ingredient]["name"] style "ingredient_name"
             text ingredient_info[ingredient]["description"]
-            hbox:
-                image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
-                textbutton "Add" action [Function(add_to_bathball, ingredient=ingredient), Hide("ingredient_confirm")]
-            hbox:
-                image "/gui/button/continue_arrow.png" zoom gui.arrow_zoom
-                textbutton "Put back" action Hide("ingredient_confirm")
+            button:
+                action [Function(add_to_bathball, ingredient=ingredient), Hide("ingredient_confirm")]
+                idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
+                hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
+                text "Add"
+            button:
+                action Hide("ingredient_confirm")
+                idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
+                hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
+                text "Put back"
+
 
 screen bathball():
     style_prefix "bathball"
@@ -904,6 +909,7 @@ style ingredients_hbox:
 style ingredient_confirm_frame is psay_frame
 
 style ingredient_confirm_vbox:
+    xalign 0.0
     spacing 15
 
 style ingredient_name:
@@ -912,7 +918,7 @@ style ingredient_name:
 
 style ingredient_confirm_hbox is choice_hbox
 style ingredient_confirm_button is choice_button
-style ingredient_confirm_button_text is choice_button_text
+style ingredient_confirm_text is choice_text
 
 style bathball_hbox:
     xalign 0.43
