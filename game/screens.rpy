@@ -860,7 +860,9 @@ screen ingredients():
     hbox:
         for i in ingredient_info.keys():
             imagebutton:
-                idle ["/images/props/ingredient " + i + ".png"]
+                idle ["/images/props/ingredient " + i + " idle.png"]
+                hover ["/images/props/ingredient " + i + " hover.png"]
+                insensitive ["/images/props/ingredient " + i + " insensitive.png"]
                 action [SensitiveIf(crafting_session),
                     Hide("csay"), # Shouldn't be necessary, just in case
                     Hide("choice"), # Shouldn't be necessary, just in case
