@@ -500,8 +500,12 @@ screen preferences():
                     vbox:
                         style_prefix "radio"
                         label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        button:
+                            action Preference("display", "window")
+                            text _("Window")
+                        button:
+                            action Preference("display", "fullscreen")
+                            text _("Fullscreen")
 
                 vbox:
                     style_prefix "check"
@@ -528,6 +532,8 @@ screen preferences():
                     label _("Auto-Forward Time")
 
                     bar value Preference("auto-forward time")
+
+                    text "" # To force spacing with sound parameters if box wrap
 
                 vbox:
 
@@ -606,7 +612,11 @@ style radio_vbox:
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "gui/button/radio_[prefix_]foreground.png"
+    left_padding 45
+    idle_background "/gui/button/check_idle.png"
+    hover_background "/gui/button/check_hover.png"
+    selected_idle_background "/gui/button/check_selected_idle.png"
+    selected_hover_background "/gui/button/check_selected_hover.png"
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
@@ -616,7 +626,11 @@ style check_vbox:
 
 style check_button:
     properties gui.button_properties("check_button")
-    foreground "gui/button/check_[prefix_]foreground.png"
+    left_padding 45
+    idle_background "/gui/button/check_idle.png"
+    hover_background "/gui/button/check_hover.png"
+    selected_idle_background "/gui/button/check_selected_idle.png"
+    selected_hover_background "/gui/button/check_selected_hover.png"
 
 style check_button_text:
     properties gui.button_text_properties("check_button")
