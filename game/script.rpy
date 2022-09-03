@@ -19,6 +19,12 @@ transform client_pos:
     xalign 0.55
     yalign 0
 
+image tadpole_jar = "/images/props/jarcroakma.png"
+
+transform jar_pos:
+    xalign 0.5
+    yalign 0.6
+
 # Info for the ingredients and crafting
 init python:
     crafting_session = False
@@ -100,9 +106,17 @@ label start:
     scene bg inside
     show counter zorder 100
 
-    call toadlax_intro
+    #call toadlax_intro
 
-    call toadlax_postbath_fork
+    #call toadlax_postbath_fork
+
+    #call croakma_intro
+
+    call taddeus_intro
+
+    #call croakma_postbath_fork
+
+    call taddeus_postbath_fork
 
     return
 
