@@ -19,7 +19,6 @@ label froxune_intro:
     fe "Anyway, do you have maybe advice or something for the festival? I mean, hum, it's my first time around, I don't want to stand out."
     p "My advice is to do what makes you comfortable, but to try and leave some of your masks aside sometimes to let people know you truly."
     p "Us frogs like sincere people."
-    p "Hope you, behind, are comfortable too." ############ I don't understand
     p "Not all frogs, of course, but you could gain some true friends along the way."
     fe "Thanks, thanks, thanks for that! I'll try my best."
     menu:

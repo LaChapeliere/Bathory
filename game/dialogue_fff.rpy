@@ -19,7 +19,7 @@ label fff_intro:
 
     show client beginning with Dissolve(0.3)
 
-    fie "*Don't say too much you dummie eh!*" ######## dumie
+    fie "*Don't say too much you magpie eh!*"
     fey "*I know, believe in me! We prepared ourselves. Stay quiet.*"
 
     show client hiden with Dissolve(0.3)
@@ -38,7 +38,7 @@ label fff_intro:
 
     fwey "*Oh damn! That's amazing! I've never heard of this!!*"
     fie "*We need to steal some of that.*"
-    p "*We will not let them steal, don't worry all the ingredients stay here.*" ###### A qui ça s'adresse ?
+    p "*Cute, but not happening.*"
     p "Are you prepared for this, detective? I mean, you looked like you can deal with the risk but maybe you need to think."
     fey "*What should we d... d... do?*"
     fie "*Ain't afraid of nothing!*"
@@ -61,7 +61,7 @@ label fff_intro:
 
     show client hiden with Dissolve(0.3)
 
-    p "*I don't know what game they're playing, but not the same one as you if you want my opinion.*" ######## A qui ça s'adresse ?
+    p "*I don't know what game they're playing, but it sounds very confusing.*"
     p "So, are you confident about your investigation so far?"
     gn "We never lose confidence. Our job is to keep a clear head."
 
@@ -73,7 +73,7 @@ label fff_intro:
 
     show client hiden with Dissolve(0.3)
 
-    p "*A PC would be more accurate... if you know what I mean...*" ######## A qui ça s'adresse ?
+    p "*A NPC? What's that supposed to be?*"
     gn "Hmm anyway, could we get a bath sir please?"
     p "Of course. I'll prepare your bathbomb right away! You can {b}all{/b} relax."
     fwey "*The artifact should be in the second bath of the first floor. Ask for this bath!!*"
@@ -209,7 +209,7 @@ label fff_postbath_anger:
     fwey "We talked about our investigation, why she didn't stop us?!"
     p "You know, I just wanted for you to have a nice moment."
     p "*I'm really not good at handling children...*"
-    fie "We LOST precious time you DUMMY! I swear I'll kick every organizer." ######## dummy
+    fie "We LOST precious time! I swear I'll kick every organizer."
     fwey "She's right, they produced poor game design and here we are. I HATE THAT! I WANTED TO SAVE THE WORLD CRAAAAAA"
     p "Calm down."
     fey "Thanks but we d... don...'t want to. We n.. need t.. to.. to tell them."
@@ -228,7 +228,7 @@ label fff_postbath_tired:
 
     fwey "*yawn* Daaaaamn, this is really hard work, human documentation doesn't lie."
     fey "Yeah, we s.. searched everywhe..re and n.. no..w *yaaaaaawn*"
-    fie "Hey dummies, we need to stay in character. *yawn*" ########## dummies
+    fie "Hey pals, we need to stay in character. *yawn*"
 
     show client hiden with Dissolve(0.3)
 
@@ -245,7 +245,6 @@ label fff_postbath_tired:
             p "I'm sorry to hear that, but yeah you did a great job."
     fie "Happen' sometimes, at least we've made quite the memory heh."
     fwey "Yeah, the last puzzle, that pointed us here, it was thrilling even if it was badly designed!"
-    p "*Hope this is designed better or you'll be like them*" ######## A qui ça s'adresse ?
     fey "We took long to guess it, maybe it.. it was too difficult but remember the first day when we decid.. deci... ded to play FFF?"
     fie "Yeah it's quite a character this one, and how we made Crokella search into the whole camp for..."
 
