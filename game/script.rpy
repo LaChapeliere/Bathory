@@ -8,6 +8,7 @@ define c = Character("Stranger", screen="csay", what_style="say_text", show_tint
 define fey = Character("Frogey", kind=c, show_tint="#62CBEE")
 define fwey = Character("Frogwey", kind=c, show_tint="#795349")
 define fie = Character("Froggie", kind=c, show_tint="#9CC151")
+define gn = Character("\"Gordon\"", kind=c, show_tint="#D8D0B2")
 define tx = Character("Toadlax", kind=c, show_tint="#939070")
 define fe = Character("Froxune", kind=c, show_tint="#E29C6A")
 define ca = Character("Croakma", kind=c, show_tint="#469BE2")
@@ -108,15 +109,23 @@ label start:
 
     #call toadlax_intro
 
+    call fff_intro
+
     #call toadlax_postbath_fork
+
+    #call froxune_intro
 
     #call croakma_intro
 
-    call taddeus_intro
+    #call froxune_postbath_fork
+
+    #call taddeus_intro
+
+    call fff_postbath_fork
 
     #call croakma_postbath_fork
 
-    call taddeus_postbath_fork
+    #call taddeus_postbath_fork
 
     return
 
