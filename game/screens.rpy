@@ -812,19 +812,26 @@ style notify_text:
     properties gui.text_properties("notify")
 
 
-## Access menu screen ###############################################################
+## Quick buttons ###############################################################
 ##
-## A simple button to access the game menu (by default the parameters)
+## Two simple buttons at the top-right of the screen to access the game menu (by default the parameters) and quit the game
 
-screen access_menu():
-    imagebutton:
-        at Transform(zoom=0.3)
+screen quick_buttons():
+    hbox:
         anchor (1.0, 0.0)
         align (0.995, 0.01)
-        idle "/gui/button/pause_idle.png"
-        hover "/gui/button/pause_hover.png"
-        action ShowMenu("preferences")
 
+        imagebutton:
+            at Transform(zoom=0.3)
+            idle "/gui/button/pause_idle.png"
+            hover "/gui/button/pause_hover.png"
+            action ShowMenu("preferences")
+
+        imagebutton:
+            at Transform(zoom=0.3)
+            idle "/gui/button/quit_idle.png"
+            hover "/gui/button/quit_hover.png"
+            action Quit(confirm=True)
 
 ## Ingredients screen
 ##

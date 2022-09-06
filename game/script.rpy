@@ -101,31 +101,31 @@ label start:
     $ _game_menu_screen = "preferences"
 
     # Show button to access menu
-    show screen access_menu
+    show screen quick_buttons
     show screen ingredients
 
     scene bg inside
     show counter zorder 100
 
-    #call toadlax_intro
+    call toadlax_intro from _call_toadlax_intro
 
-    call fff_intro
+    call fff_intro from _call_fff_intro
 
-    #call toadlax_postbath_fork
+    call toadlax_postbath_fork from _call_toadlax_postbath_fork
 
-    #call froxune_intro
+    call froxune_intro from _call_froxune_intro
 
-    #call croakma_intro
+    call croakma_intro from _call_croakma_intro
 
-    #call froxune_postbath_fork
+    call froxune_postbath_fork from _call_froxune_postbath_fork
 
-    #call taddeus_intro
+    call taddeus_intro from _call_taddeus_intro
 
-    call fff_postbath_fork
+    call fff_postbath_fork from _call_fff_postbath_fork
 
-    #call croakma_postbath_fork
+    call croakma_postbath_fork from _call_croakma_postbath_fork
 
-    #call taddeus_postbath_fork
+    call taddeus_postbath_fork from _call_taddeus_postbath_fork
 
     return
 
