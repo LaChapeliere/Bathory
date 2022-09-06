@@ -86,7 +86,7 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
-screen csay(who, what, tint):
+screen csay(who, what, tint, whisper=False):
     style_prefix "csay"
 
     fixed:
@@ -98,16 +98,28 @@ screen csay(who, what, tint):
 
         frame:
             at Transform(matrixcolor=TintMatrix(tint)) # Tint the box
-            text what id "what"
+            if whisper:
+                foreground Transform(im.FactorScale("/images/props/icon whisper.png", 0.3), xpos=38, ypos=36)
+                window:
+                    top_padding 33
+                    text what id "what"
+            else:
+                text what id "what"
 
-screen psay(who, what):
+screen psay(who, what, whisper=False):
     style_prefix "psay"
 
     fixed:
 
         frame:
             at Transform(matrixcolor=TintMatrix(gui.player_tint)) # Tint the box
-            text what id "what"
+            if whisper:
+                foreground Transform(im.FactorScale("/images/props/icon whisper.png", 0.3), xpos=38, ypos=36)
+                window:
+                    top_padding 33
+                    text what id "what"
+            else:
+                text what id "what"
 
 ## Make the namebox available for styling through the Character object.
 init python:
@@ -180,6 +192,10 @@ style say_text:
     color gui.text_color
     size gui.text_size
 
+style whisper_text is say_text
+style whisper_text:
+    first_indent 75
+    color gui.whisper_text_color
 
 ## Choice screen ###############################################################
 ##

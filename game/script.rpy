@@ -4,15 +4,23 @@
 # name of the character.
 
 define p = Character(screen="psay", what_style="say_text")
+define pw = Character(screen="psay", what_style="whisper_text", show_whisper=True)
 define c = Character("Stranger", screen="csay", what_style="say_text", show_tint="#ffffff") # Add ctc for click-to-continue
 define fey = Character("Frogey", kind=c, show_tint="#62CBEE")
+define feyw = Character(kind=fey, what_style="whisper_text", show_whisper=True)
 define fwey = Character("Frogwey", kind=c, show_tint="#795349")
+define fweyw = Character(kind=fwey, what_style="whisper_text", show_whisper=True)
 define fie = Character("Froggie", kind=c, show_tint="#9CC151")
+define fiew = Character(kind=fie, what_style="whisper_text", show_whisper=True)
 define gn = Character("\"Gordon\"", kind=c, show_tint="#D8D0B2")
 define tx = Character("Toadlax", kind=c, show_tint="#939070")
+define txw = Character(kind=tx, what_style="whisper_text", show_whisper=True)
 define fe = Character("Froxune", kind=c, show_tint="#E29C6A")
+define few = Character(kind=fe, what_style="whisper_text", show_whisper=True)
 define ca = Character("Croakma", kind=c, show_tint="#469BE2")
+define caw = Character(kind=ca, what_style="whisper_text", show_whisper=True)
 define ts = Character("Taddeus Pole", kind=c, show_tint="#E0A92A")
+define tsw = Character(kind=ts, what_style="whisper_text", show_whisper=True)
 $ current_character = ""
 
 transform client_pos:
@@ -106,26 +114,26 @@ label start:
 
     scene bg inside
     show counter zorder 100
-
-    call toadlax_intro from _call_toadlax_intro
-
-    call fff_intro from _call_fff_intro
-
-    call toadlax_postbath_fork from _call_toadlax_postbath_fork
-
-    call froxune_intro from _call_froxune_intro
-
-    call croakma_intro from _call_croakma_intro
-
-    call froxune_postbath_fork from _call_froxune_postbath_fork
-
-    call taddeus_intro from _call_taddeus_intro
-
-    call fff_postbath_fork from _call_fff_postbath_fork
-
-    call croakma_postbath_fork from _call_croakma_postbath_fork
-
-    call taddeus_postbath_fork from _call_taddeus_postbath_fork
+    call testscene
+    # call toadlax_intro from _call_toadlax_intro
+    #
+    # call fff_intro from _call_fff_intro
+    #
+    # call toadlax_postbath_fork from _call_toadlax_postbath_fork
+    #
+    # call froxune_intro from _call_froxune_intro
+    #
+    # call croakma_intro from _call_croakma_intro
+    #
+    # call froxune_postbath_fork from _call_froxune_postbath_fork
+    #
+    # call taddeus_intro from _call_taddeus_intro
+    #
+    # call fff_postbath_fork from _call_fff_postbath_fork
+    #
+    # call croakma_postbath_fork from _call_croakma_postbath_fork
+    #
+    # call taddeus_postbath_fork from _call_taddeus_postbath_fork
 
     return
 
@@ -135,19 +143,10 @@ label testscene:
     $ current_character = "tx"
     show counter
 
-    p "Welcome to... {w=1}Oh! Toadlax, long time not seen!"
-    tx "Well, you know how hard it is to travel outside of festival time..."
-    tx "{cps=*4}I'd visit more often otherwise.{/cps}"
-    p "Don't sweat, I understand!"
-    p "How are you doing? Do you have plans to do some opne mics this year?"
-    tx "I wish, but I actually got a pretty fancy job this year!"
-    tx "I doubt I'll have any time in the evenings to go singing..."
-    p "Too bad, I'd have come listen to you..."
-    p "Your singing always lift my heart!"
+    tx "This is normal text"
+    txw "This is a mumble mumble mumble bkjdlfq qdfhhmoicw ihfjqsnd jcijd jf qpsjd  qpsij xjijqds"
+    tx "This is normal text"
 
-    show client bored
-
-    tx "Yes, well, that wasn't the opinion of the temple masters, was it?"
 
     return
 

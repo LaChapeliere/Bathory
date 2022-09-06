@@ -48,8 +48,9 @@ define gui.muted_color = u'#666666'
 define gui.hover_muted_color = u'#999999'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#333333'
-define gui.interface_text_color = u'#333333'
+define gui.text_color = u'#222222'
+define gui.interface_text_color = u'#222222'
+define gui.whisper_text_color = u'#5b5b5b'
 
 
 ## Tint color for the player's dialogue box
@@ -99,11 +100,11 @@ define gui.game_menu_background = "gui/game_menu.png"
 
 ## The height of the textbox containing dialogue.
 define gui.textbox_min_height = 110
-define gui.textbox_max_height = 360
+define gui.textbox_max_height = 320
 define gui.textbox_width = 800
 
 ## The borders of the dialogue and name box
-define gui.textbox_borders = Borders(31, 31, 31, 31)
+define gui.textbox_borders = Borders(31, 31, 31, 31) # fancy 14, 15, 31, 27
 
 # The padding of the dialogue and namebox
 define gui.textbox_padding = (38, 38, 38, 38)
