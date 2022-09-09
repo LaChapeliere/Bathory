@@ -44,22 +44,22 @@ label croakma_intro:
     ca "How about that bath then?"
 
     p "Give me a minute to prepare your bomb bath and you'll be all set."
-    p "*I'm not sure it's healthy to resent your children that much...*"
+    pw "I'm not sure it's healthy to resent your children that much..."
 
-    call craftingscene
+    call craftingscene from _call_craftingscene_2
 
     p "Here is your bath bomb, please enjoy your bath!"
     ca "Thanks! Hopefully it'll take my mind off things."
 
     hide client with dissolve
 
-    p "*She left her tadpole jar on the counter... Is it a sign?*"
-    p "*I could discreetly add them to my reserve of trippy tadpoles...*"
+    pw "She left her tadpole jar on the counter... Is it a sign?"
+    pw "I could discreetly add them to my reserve of trippy tadpoles..."
     menu:
         "Leave the jar alone":
-            p "*No, better not...*"
+            pw "No, better not..."
         "Appropriate the tadpoles":
-            p "*Here we go...*"
+            pw "Here we go..."
             $ stole_tadpoles = True
             hide tadpole_jar with Dissolve(0.25)
 
@@ -101,7 +101,7 @@ label croakma_postbath_mildlyupset:
             p "Yes, you did..."
             ca "Could I have them back, now? I really need to get going."
             p "About that..."
-            p "*Did I badly misread the situation?*"
+            pw "Did I badly misread the situation?"
             p "I'm afraid it's not going to be possible."
             p "I thought you had left them on purpose..."
             p "They are soaking peacefully in the back, turning in trippy tadpoles."
@@ -127,7 +127,7 @@ label croakma_postbath_mildlyupset:
             ca "Not a total waste then, if you can make decent snacks out of them..."
             ca "I guess my days just lightened up."
             ca "Yay..."
-            p "*She looks about as happy as a dried up clam...*"
+            pw "She looks about as happy as a dried up clam..."
     ca "I'll just get on with my day then."
     p "Thank you for your patronage."
 
@@ -179,14 +179,14 @@ label croakma_postbath_forget:
     ca "Yes, hopefully."
     ca "I feel like I'm forgetting something though..."
     p "..."
-    p "*This is going to be awkward...*"
+    pw "This is going to be awkward..."
     ca "Oh, well, no matter. It can't have been that important..."
     ca "Goodbye, then."
     p "Goodbye, take care."
 
     hide client with dissolve
 
-    p "*That went better than expected!*"
+    pw "That went better than expected!"
 
     return
 
@@ -203,8 +203,8 @@ label croakma_postbath_burden:
     ca "And my little burdens are here!"
     ca "Joy!"
     ca "I was wondering where I had left them..."
-    p "*Oh, maybe I should have put them away then.*"
-    p "*But then, it doesn't feel like a decision I should make for her...*"
+    pw "Oh, maybe I should have put them away then."
+    pw "But then, it doesn't feel like a decision I should make for her..."
 
     hide tadpole_jar with Dissolve(0.25)
     show client sadjar with Dissolve(0.25)

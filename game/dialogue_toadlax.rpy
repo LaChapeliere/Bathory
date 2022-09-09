@@ -17,7 +17,7 @@ label toadlax_intro:
 
     tx "Yes, well, that wasn't the opinion of the temple masters, was it?"
     tx "A vulgar swamp frog like myself can't possibly grasp the subtlety of ceremonial singing..."
-    p "*Oops, touchy topic...*"
+    pw "Oops, touchy topic..."
     p "It's their loss!"
     tx "Thanks."
 
@@ -76,14 +76,14 @@ label toadlax_intro:
     tx "How about you cook one up for me? I feel like a bath now."
     p "Sure, just give me a minute!"
 
-    call craftingscene
+    call craftingscene from _call_craftingscene
 
     p "Here it is, enjoy a good soak!"
     tx "Thanks! It'll give me an opportunity to fine-tune my laxative maybugs plan!"
 
     hide client with dissolve
 
-    p "*Wait, was she serious?*"
+    pw "Wait, was she serious?"
 
     return
 
@@ -172,7 +172,7 @@ label toadlax_postbath_laxative:
         "I really wouldn't know.":
             p "I really wouldn't know."
     tx "'k. I need to research some more, but it can probably work..."
-    p "*It sounds like she's really going to put laxative in the VIP food...*"
+    pw "It sounds like she's really going to put laxative in the VIP food..."
     p "Are you sure that's a good idea?"
     tx "Probably not. But I'm just sick of everyone looking down on me because of my species."
     tx "I just want them to get what's coming to them for once..."
@@ -180,6 +180,6 @@ label toadlax_postbath_laxative:
 
     hide client with dissolve
 
-    p "*I hope she doesn't get into too much trouble.*"
+    pw "I hope she doesn't get into too much trouble."
 
     return

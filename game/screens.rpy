@@ -193,6 +193,7 @@ style say_text:
     size gui.text_size
 
 style whisper_text is say_text
+## If this is modified, remember to also update the hard coded style in add_to_bathball()
 style whisper_text:
     first_indent 75
     color gui.whisper_text_color
@@ -849,7 +850,7 @@ screen quick_buttons():
             hover "/gui/button/quit_hover.png"
             action Quit(confirm=True)
 
-## Ingredients screen
+## Ingredients screens ###############################################################
 ##
 ## Imagebuttons for the ingredients, inactive but visible during dialogue
 
@@ -882,11 +883,14 @@ init python:
 
         # Next step
         if len(bathball_info) == 1:
-            renpy.show_screen("psay", who="", what="*One down, two to go!*")
+            renpy.show_screen("psay", who="", what="One down, two to go!", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            "color": gui.whisper_text_color}}) ## Whisper mode
         elif len(bathball_info) == 2:
-            renpy.show_screen("psay", who="", what="*Just one more ingredient...*")
+            renpy.show_screen("psay", who="", what="Just one more ingredient...", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            "color": gui.whisper_text_color}}) ## Whisper mode
         elif len(bathball_info) == 3:
-            renpy.show_screen("psay", who="", what="*And one bathbomb to go!*")
+            renpy.show_screen("psay", who="", what="And one bathbomb to go!", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            "color": gui.whisper_text_color}}) ## Whisper mode
             bathball_results[current_character] = compute_result()
             renpy.hide_screen("bathball")
         else:
@@ -907,6 +911,8 @@ screen ingredients():
                     Show("ingredient_confirm", ingredient = i)]
                 yalign 1.0
 
+
+## Confirm the selected ingredient
 screen ingredient_confirm(ingredient):
     style_prefix "ingredient_confirm"
 
@@ -928,12 +934,12 @@ screen ingredient_confirm(ingredient):
                 hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
                 text "Put back"
 
-
+## Display the bathball
 screen bathball():
     style_prefix "bathball"
 
     hbox:
-        at screen_dissolve
+        at bathball_dissolve
         image "/images/props/bathBall.png":
             at Transform(matrixcolor=bathball_color)
 
@@ -946,6 +952,9 @@ style ingredients_hbox:
     spacing 60
 
 style ingredient_confirm_frame is psay_frame
+
+style ingredient_confirm_frame:
+    ymaximum gui.choicebox_max_height
 
 style ingredient_confirm_vbox:
     xalign 0.0
@@ -963,7 +972,7 @@ style bathball_hbox:
     xalign 0.43
     ypos 680
 
-transform screen_dissolve:
+transform bathball_dissolve:
     on hide:
         alpha 1.0
         linear .25 alpha 0

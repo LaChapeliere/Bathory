@@ -33,7 +33,7 @@ label froxune_intro:
     fe "Eeeeek! {w=1.0}Hm I mean, I mean, I mean, sounds lovely of course!"
     fe "How did you select these ingredients? I didn't know you had such powers!"
     p "{cps=*0.3}...{/cps}"
-    p "*I think I know them...*"
+    pw "I think I know them..."
     fe "Hum I, I, I hum I mean you don't look like a frog that could do such things."
     p "It's my sister, we opened these bath together, she's really great at influencing people's emotions."
     p "We decided to create this place to help every frog sort through their issues and thoughts while having a good soak."
@@ -41,7 +41,7 @@ label froxune_intro:
     fe "Anyway, I think I should have that bath. I hope it'll give me strength for tomorrow!"
     p "I'll make you something nice, you'll see! *wink*"
 
-    call craftingscene
+    call craftingscene from _call_craftingscene_3
 
     p "Here it is! Enjoy your time in this \"lovely\" bath."
 
@@ -144,7 +144,7 @@ label froxune_postbath_confident:
     p "I see, but you know, I think you can go as yourself this time."
     p "Times sure changed and you could start something new for all of us."
     fe "I'm not that good you know. Anyway, I'll stay true to myself."
-    fe "*And to my dream.*"
+    few "And to my dream."
     p "I'm sure it'll be alright! Cheer up!"
     fe "Yes yes, I'll cheer up after a nap."
     p "I hope to see you again soon this time, and not in forty years!"
@@ -164,7 +164,7 @@ label froxune_postbath_depressed:
     show client froxune sad at client_pos with dissolve
     $ current_character = "fe"
 
-    fe "*Frogs have weird tendencies for their bath... I'll never be one of them...*"
+    few "Frogs have weird tendencies for their bath... I'll never be one of them..."
     fe "Well hum, this was... an, hum, experience."
     menu:
         "A great one or...?":

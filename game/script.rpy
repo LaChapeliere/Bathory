@@ -88,7 +88,7 @@ init python:
     bathball_results = {"fff": (0,0), "tx": (0,0), "fe": (0,0), "ca": (0,0), "ts": (0,0)}
 
     def debug_result(tuple):
-        string = "*The result of this bathball is "
+        string = "The result of this bathball is "
         if tuple[0] > 0:
             string += "high"
         else:
@@ -98,7 +98,7 @@ init python:
             string += "high"
         else:
             string += "low"
-        string += " pleasure.*"
+        string += " pleasure."
         return string
 
 # The game starts here.
@@ -114,38 +114,35 @@ label start:
 
     scene bg inside
     show counter zorder 100
-    call testscene
-    # call toadlax_intro from _call_toadlax_intro
-    #
-    # call fff_intro from _call_fff_intro
-    #
-    # call toadlax_postbath_fork from _call_toadlax_postbath_fork
-    #
-    # call froxune_intro from _call_froxune_intro
-    #
-    # call croakma_intro from _call_croakma_intro
-    #
-    # call froxune_postbath_fork from _call_froxune_postbath_fork
-    #
-    # call taddeus_intro from _call_taddeus_intro
-    #
-    # call fff_postbath_fork from _call_fff_postbath_fork
-    #
-    # call croakma_postbath_fork from _call_croakma_postbath_fork
-    #
-    # call taddeus_postbath_fork from _call_taddeus_postbath_fork
+
+    call toadlax_intro from _call_toadlax_intro
+
+    call fff_intro from _call_fff_intro
+
+    call toadlax_postbath_fork from _call_toadlax_postbath_fork
+
+    call froxune_intro from _call_froxune_intro
+
+    call croakma_intro from _call_croakma_intro
+
+    call froxune_postbath_fork from _call_froxune_postbath_fork
+
+    call taddeus_intro from _call_taddeus_intro
+
+    call fff_postbath_fork from _call_fff_postbath_fork
+
+    call croakma_postbath_fork from _call_croakma_postbath_fork
+
+    call taddeus_postbath_fork from _call_taddeus_postbath_fork
 
     return
 
 label testscene:
 
-    show client toadlax beginning at client_pos
-    $ current_character = "tx"
-    show counter
+    scene bg paper
 
-    tx "This is normal text"
-    txw "This is a mumble mumble mumble bkjdlfq qdfhhmoicw ihfjqsnd jcijd jf qpsjd  qpsij xjijqds"
-    tx "This is normal text"
+    $test_article = endgame_info["tx"]["revenge"]
+    call screen article(test_article["title"], test_article["text"], test_article["image"])
 
 
     return
@@ -158,7 +155,7 @@ label craftingscene:
     $ config.keymap['dismiss'] = []
     $ config.keymap["rollforward"] = []
 
-    p "*I need to add three ingredients from the shelf.*"
+    pw "I need to add three ingredients from the shelf."
 
     $ crafting_session = True
 
@@ -178,35 +175,6 @@ label craftingscene:
     $ config.keymap["rollforward"] = [ 'mousedown_5', 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ]
 
     $ temp = debug_result(bathball_results[current_character])
-    p "[temp]"
+    pw "[temp]"
 
     return
-
-
-label testmenu:
-
-    scene bg inside
-
-    show client toadlax beginning at client_pos
-
-    show counter
-
-    tx "Hello"
-
-    menu:
-        "Should I say this? It's a really good choice I think. In my humble opinion. Let's make that box too big, yooohoooo!":
-            p "This"
-
-        "Or that":
-            p "That"
-
-        "Or something else entirely":
-            p "Boop"
-
-    tx "Hello my friend, welcome to the bath bubble bubble. This is a good place to be. Don't you think so? The bubble extend to about 160 characters."
-
-    show client happy at client_pos behind counter
-
-    tx "Again"
-
-    p "Narrator speech"

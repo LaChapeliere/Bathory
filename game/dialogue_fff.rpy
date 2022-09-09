@@ -9,8 +9,8 @@ label fff_intro:
 
     show client beginning with Dissolve(0.3)
 
-    fie "*She's really in character!*"
-    fwey "*Shhhht*"
+    fiew "She's really in character!"
+    fweyw "Shhhht"
 
     show client hiden with Dissolve(0.3)
 
@@ -19,8 +19,8 @@ label fff_intro:
 
     show client beginning with Dissolve(0.3)
 
-    fie "*Don't say too much you magpie eh!*"
-    fey "*I know, believe in me! We prepared ourselves. Stay quiet.*"
+    fiew "Don't say too much you magpie eh!"
+    feyw "I know, believe in me! We prepared ourselves. Stay quiet."
 
     show client hiden with Dissolve(0.3)
 
@@ -28,7 +28,7 @@ label fff_intro:
     gn "It would appear to you simple, plain. But it could save the world!"
     gn "I'm her..e to retr... ret... retrieve it before it falls in the hands of Waetùl, the evil academician."
     gn "Or academinician would be more appropriate eheh."
-    fie "*Shhhht!*"
+    fiew "Shhhht!"
     gn "Hmm anyway, civilians should stay away from this."
     p "Indeed, I understand. We civilians need to be protected from evil, and as a special detective you can't say much."
     p "You know, if you explain it to me some more, I could better help you."
@@ -36,13 +36,13 @@ label fff_intro:
 
     show client beginning with Dissolve(0.3)
 
-    fwey "*Oh damn! That's amazing! I've never heard of this!!*"
-    fie "*We need to steal some of that.*"
-    p "*Cute, but not happening.*"
+    fweyw "Oh damn! That's amazing! I've never heard of this!!"
+    fiew "We need to steal some of that."
+    pw "Cute, but not happening."
     p "Are you prepared for this, detective? I mean, you looked like you can deal with the risk but maybe you need to think."
-    fey "*What should we d... d... do?*"
-    fie "*Ain't afraid of nothing!*"
-    fwey "*I'm really really REALLY curious!!*"
+    feyw "What should we d... d... do?"
+    fiew "Ain't afraid of nothing!"
+    fweyw "I'm really really REALLY curious!!"
 
     show client hiden with Dissolve(0.3)
 
@@ -56,36 +56,36 @@ label fff_intro:
 
     show client beginning with Dissolve(0.3)
 
-    fie "*Stop the jokes, you!*"
-    fey "*Stay quiet.. t.. quiet.*"
+    fiew "Stop the jokes, you!"
+    feyw "Stay quiet.. t.. quiet."
 
     show client hiden with Dissolve(0.3)
 
-    p "*I don't know what game they're playing, but it sounds very confusing.*"
+    pw "I don't know what game they're playing, but it sounds very confusing."
     p "So, are you confident about your investigation so far?"
     gn "We never lose confidence. Our job is to keep a clear head."
 
     show client beginning with Dissolve(0.3)
 
-    fie "*I'm wondering guys, is this place really the right one?*"
-    fwey "*I mean, an artifact hidden into a secret spirit inn, seems legit to put it in here.*"
-    fey "*I'm worried too, chief is nice but.. but.. but is she really an NPC?*"
+    fiew "I'm wondering guys, is this place really the right one?"
+    fweyw "I mean, an artifact hidden into a secret spirit inn, seems legit to put it in here."
+    feyw "I'm worried too, chief is nice but.. but.. but is she really an NPC?"
 
     show client hiden with Dissolve(0.3)
 
-    p "*A NPC? What's that supposed to be?*"
+    pw "A NPC? What's that supposed to be?"
     gn "Hmm anyway, could we get a bath sir please?"
     p "Of course. I'll prepare your bathbomb right away! You can {b}all{/b} relax."
-    fwey "*The artifact should be in the second bath of the first floor. Ask for this bath!!*"
+    fweyw "The artifact should be in the second bath of the first floor. Ask for this bath!!"
     gn "Oh yes. Hmm, can I have the s.. sec.. second bath of the first floor please."
     p "This bath is free, so make yourself at home. Can I ask why this bath in particular?"
     gn "Spiritumental Secret Defense. SSD."
-    fey "*Super Super Dope eheh.*"
-    fie "*Shhhht!*"
+    feyw "Super Super Dope eheh."
+    fiew "Shhhht!"
     p "I understand, we civilians cannot understand the SSD ways."
-    p "I will ask you to be calm and quiet during this process, we don't want to misplace ingredients in here. *wink*"
+    p "I will ask you to be calm and quiet during this process, we don't want to misplace ingredients in here. *wink"
 
-    call craftingscene
+    call craftingscene from _call_craftingscene_1
 
     p "And here it is! Enjoy your bath, and your search."
 
@@ -122,9 +122,9 @@ label fff_postbath_overpowered:
 
     show client confident with Dissolve(0.3)
 
-    fie "*That was powerful as heck!! I'll need to find some for home...*"
-    fwey "*We will go to the human realm, have so much power with this suit and save all the worlds in the world!!*"
-    fey "*Quiet, it was am.. amazing but we have to stay in character.*"
+    fiew "That was powerful as heck!! I'll need to find some for home..."
+    fweyw "We will go to the human realm, have so much power with this suit and save all the worlds in the world!!"
+    feyw "Quiet, it was am.. amazing but we have to stay in character."
 
     show client hiden with Dissolve(0.3)
 
@@ -139,9 +139,9 @@ label fff_postbath_overpowered:
 
     show client confident with Dissolve(0.3)
 
-    fie "*SO MUCH POWER! We'll take over the entire world tomorrow!*"
-    fwey "*We'll help the entire world, don't forget we're a great spy-detective-adventurer-hero, Froggie*"
-    fey "*T.. true. Frogwey you said that \"fr..iendship is p..ower\" in the human world, bath is p..power here. Haha*"
+    fiew "SO MUCH POWER! We'll take over the entire world tomorrow!"
+    fweyw "We'll help the entire world, don't forget we're a great spy-detective-adventurer-hero, Froggie"
+    feyw "T.. true. Frogwey you said that \"fr..iendship is p..ower\" in the human world, bath is p..power here. Haha"
     menu:
         "You grew up in no time in this bath! Hope your power will be a good fit for tomorrow!":
             p "You grew up in no time in this bath! Hope your power will be a good fit for tomorrow!"
@@ -163,9 +163,9 @@ label fff_postbath_satisfied:
 
     show client blush with Dissolve(0.3)
 
-    fie "*Hell yeah! Like being in a fluffy animal.*"
-    fwey "*Too bad we found nothing, but Frogey you did a great job. We got into the bath and now we feel sooooo goood. yawn*"
-    fey "*Thanks but quiet, or chief will understand.*"
+    fiew "Hell yeah! Like being in a fluffy animal."
+    fweyw "Too bad we found nothing, but Frogey you did a great job. We got into the bath and now we feel sooooo goood. *yawn*"
+    feyw "Thanks but quiet, or chief will understand."
 
     show client hiden with Dissolve(0.3)
 
@@ -175,9 +175,9 @@ label fff_postbath_satisfied:
     show client blush with Dissolve(0.3)
 
     fey "D.. damn I'm too t..ired. Thanks."
-    fie "*Hey you! You've lost character.*"
-    fey "*I know but..but I don't think that mat..mat..matter anymore.*"
-    fwey "*frown It matters a little...*"
+    fiew "Hey you! You've lost character."
+    feyw "I know but..but I don't think that mat..mat..matter anymore."
+    fweyw "frown It matters a little..."
     fie "Oh come on! We had a great time and we will tomorrow, too! Remember how we started this game?"
     fey "Yeah. We went to.. to the see great Felune, and met Platyss."
     fwey "And she was so out of place among frogs! But lead us to our first interspirit LARP!!"
@@ -208,7 +208,7 @@ label fff_postbath_anger:
     fey "Hey calm down, it's not his fault..."
     fwey "We talked about our investigation, why she didn't stop us?!"
     p "You know, I just wanted for you to have a nice moment."
-    p "*I'm really not good at handling children...*"
+    pw "I'm really not good at handling children..."
     fie "We LOST precious time! I swear I'll kick every organizer."
     fwey "She's right, they produced poor game design and here we are. I HATE THAT! I WANTED TO SAVE THE WORLD CRAAAAAA"
     p "Calm down."
@@ -216,7 +216,7 @@ label fff_postbath_anger:
 
     hide client with dissolve
 
-    p "**sigh* Have a nice festival...*"
+    pw "*sigh* Have a nice festival..."
 
     return
 
@@ -226,7 +226,7 @@ label fff_postbath_tired:
     show client fff tired at client_pos with dissolve
     $ current_character = "fff"
 
-    fwey "*yawn* Daaaaamn, this is really hard work, human documentation doesn't lie."
+    fweyw "yawn* Daaaaamn, this is really hard work, human documentation doesn't lie."
     fey "Yeah, we s.. searched everywhe..re and n.. no..w *yaaaaaawn*"
     fie "Hey pals, we need to stay in character. *yawn*"
 

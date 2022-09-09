@@ -58,7 +58,7 @@ label taddeus_intro:
     ts "Maybe... I hope so..."
     p "Please give me a minute to prepare your bath bomb."
 
-    call craftingscene
+    call craftingscene from _call_craftingscene_4
 
     p "Here it is, please enjoy your bath!"
     ts "Thank you kindly."
@@ -99,14 +99,14 @@ label taddeus_postbath_revenge:
             ts "But it will be grandiose, one of my chef-d'oeuvre!"
             p "Wait..."
             hide client with dissolve
-            p "*He's gone already... Oh dear!*"
+            pw "He's gone already... Oh dear!"
         "Sounds good. Go get them!":
             p "Sounds good. Go get them!"
             ts "Thank you for your support!"
             ts "If you ever want to come to one of my unveiling events, you will be most welcome."
             p "That is nice of you."
             ts "Well, except the next one. No, that would be terribly ungrateful of me."
-            p "*What??*"
+            pw "What??"
             ts "In any case, I will make sure to visit during our next festival!"
             p "We would be honoured by your continued patronage."
             p "Please take care."
@@ -141,7 +141,7 @@ label taddeus_postbath_teafarm:
             ts "But I will want to take advantage of the portals that have been set up for the festival."
             p "I suppose there's no sense in dawdling if you have made your decision."
     ts "Farewell, spirit-witch of the energising bath-bombs."
-    p "*Wow, I like that new title. Very fancy!*"
+    pw "Wow, I like that new title. Very fancy!"
     p "Goodbye, take care."
 
     hide client with dissolve
@@ -183,7 +183,7 @@ label taddeus_postbath_priceoffame:
             ts "I had best be on my way, before words spread that I am your patron."
             ts "I would hate for my fans to descend upon your establishment like a locust swarm..."
             p "I'm sure it wouldn't be that bad!"
-            p "*What a dramatic frog!*"
+            pw "What a dramatic frog!"
             ts "Good bye. My thanks for the bath."
             p "You're welcome. Take care, and don't hesitate to come back if things aren't looking up."
             hide client with dissolve
