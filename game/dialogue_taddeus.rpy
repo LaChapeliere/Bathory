@@ -1,6 +1,7 @@
 label taddeus_intro:
 
-    show client taddeus beginning at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client taddeus beginning at client_pos with Dissolve(3.0)
     $ current_character = "ts"
 
     p "Welcome to Bathory."
@@ -63,7 +64,8 @@ label taddeus_intro:
     p "Here it is, please enjoy your bath!"
     ts "Thank you kindly."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
@@ -87,7 +89,8 @@ label taddeus_postbath_fork:
 
 label taddeus_postbath_revenge:
 
-    show client taddeus happy at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client taddeus happy at client_pos with Dissolve(3.0)
     $ current_character = "ts"
 
     ts "This bath was very illuminating indeed!"
@@ -101,7 +104,8 @@ label taddeus_postbath_revenge:
             ts "I cannot go into details, for I would not want to ruin the surprise."
             ts "But it will be grandiose, one of my chef-d'oeuvre!"
             p "Wait..."
-            hide client with dissolve
+            play sound "/audio/Frogs.mp3"
+            hide client with Dissolve(3.0)
             pw "He's gone already... Oh dear!"
         "Sounds good. Go get them!":
             p "Sounds good. Go get them!"
@@ -113,7 +117,8 @@ label taddeus_postbath_revenge:
             ts "In any case, I will make sure to visit during our next festival!"
             p "We would be honoured by your continued patronage."
             p "Please take care."
-            hide client with dissolve
+            play sound "/audio/Frogs.mp3"
+            hide client with Dissolve(3.0)
 
     return
 
@@ -121,7 +126,8 @@ label taddeus_postbath_revenge:
 
 label taddeus_postbath_teafarm:
 
-    show client taddeus thinking at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client taddeus thinking at client_pos with Dissolve(3.0)
     $ current_character = "ts"
 
     ts "Aaaah..."
@@ -147,7 +153,8 @@ label taddeus_postbath_teafarm:
     pw "Wow, I like that new title. Very fancy!"
     p "Goodbye, take care."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
@@ -155,7 +162,8 @@ label taddeus_postbath_teafarm:
 
 label taddeus_postbath_priceoffame:
 
-    show client taddeus bored at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client taddeus bored at client_pos with Dissolve(3.0)
     $ current_character = "ts"
 
     ts "Well..."
@@ -189,7 +197,8 @@ label taddeus_postbath_priceoffame:
             pw "What a dramatic frog!"
             ts "Good bye. My thanks for the bath."
             p "You're welcome. Take care, and don't hesitate to come back if things aren't looking up."
-            hide client with dissolve
+            play sound "/audio/Frogs.mp3"
+            hide client with Dissolve(3.0)
         "You can still decide whether that price is reasonable or not.":
             p "You can still decide whether that price is reasonable or not."
             ts "And if I decide it is not?"
@@ -200,6 +209,7 @@ label taddeus_postbath_priceoffame:
             ts "And if I want to get away from it all for a few hours, I can come back here, can I not?"
             p "You will always be welcome."
             ts "Until my next visit, then."
-            hide client with dissolve
+            play sound "/audio/Frogs.mp3"
+            hide client with Dissolve(3.0)
 
     return

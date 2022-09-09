@@ -108,6 +108,9 @@ label start:
     # Set default game menu to the Preferences screen
     $ _game_menu_screen = "preferences"
 
+    # Music
+    play music "/audio/Spring Water.mp3" fadein 5.0 fadeout 2.0 loop volume 0.4
+
     # Show button to access menu
     show screen quick_buttons
 
@@ -118,28 +121,50 @@ label start:
 
     call toadlax_intro from _call_toadlax_intro
 
+    pause
+
     call fff_intro from _call_fff_intro
+
+    pause
 
     call toadlax_postbath_fork from _call_toadlax_postbath_fork
 
+    pause
+
     call froxune_intro from _call_froxune_intro
+
+    pause
 
     call croakma_intro from _call_croakma_intro
 
+    pause
+
     call froxune_postbath_fork from _call_froxune_postbath_fork
+
+    pause
 
     call taddeus_intro from _call_taddeus_intro
 
+    pause
+
     call fff_postbath_fork from _call_fff_postbath_fork
+
+    pause
 
     call croakma_postbath_fork from _call_croakma_postbath_fork
 
+    pause
+
     call taddeus_postbath_fork from _call_taddeus_postbath_fork
 
+    pause
+
     # Ending
+    stop music
     hide screen ingredients
     hide counter
     scene bg paper
+    play music "/audio/Pages.mp3" loop volume 1.0
     $ renpy.random.shuffle(endings)
     call screen newspaper(endings)
 
@@ -171,6 +196,9 @@ label craftingscene:
 
     while len(bathball_info) < 3:
         $ renpy.pause(0.1)
+
+    # Sound
+    play sound "/audio/crafting.mp3"
 
     # Reset bathball info
     $ crafting_session = False

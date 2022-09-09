@@ -1,6 +1,7 @@
 label croakma_intro:
 
-    show client croakma beginning at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client croakma beginning at client_pos with Dissolve(3.0)
     $ current_character = "ca"
     $ stole_tadpoles = False
 
@@ -38,8 +39,8 @@ label croakma_intro:
             ca "The useless creatures can't go that long without beeing fed, so I have to carry them with me all over the place!"
             ca "Anyway..."
 
-    show client upset with Dissolve(0.25)
-    show tadpole_jar at jar_pos zorder 110 with Dissolve(0.25)
+    show client upset with Dissolve(0.3)
+    show tadpole_jar at jar_pos zorder 110 with Dissolve(0.3)
 
     ca "How about that bath then?"
 
@@ -51,7 +52,8 @@ label croakma_intro:
     p "Here is your bath bomb, please enjoy your bath!"
     ca "Thanks! Hopefully it'll take my mind off things."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     pw "She left her tadpole jar on the counter... Is it a sign?"
     pw "I could discreetly add them to my reserve of trippy tadpoles..."
@@ -61,7 +63,7 @@ label croakma_intro:
         "Appropriate the tadpoles":
             pw "Here we go..."
             $ stole_tadpoles = True
-            hide tadpole_jar with Dissolve(0.25)
+            hide tadpole_jar with Dissolve(0.3)
 
     return
 
@@ -89,14 +91,16 @@ label croakma_postbath_fork:
 
 
 label croakma_postbath_mildlyupset:
-    show client croakma happy at client_pos with dissolve
+
+    play sound "/audio/Frogs.mp3"
+    show client croakma happy at client_pos with Dissolve(3.0)
     $ current_character = "ca"
 
     ca "Ah, this was nice!"
     p "I'm glad you enjoyed your bath!"
     ca "Hum... I thought I had left my tadpoles here?"
 
-    show client worried with Dissolve(0.25)
+    show client worried with Dissolve(0.3)
 
     menu:
         "Err...":
@@ -110,7 +114,7 @@ label croakma_postbath_mildlyupset:
             p "I thought you had left them on purpose..."
             p "They are soaking peacefully in the back, turning in trippy tadpoles."
             p "I apologise deeply for misunderstanding..."
-            show client upset with Dissolve(0.25)
+            show client upset with Dissolve(0.3)
             ca "What if you just scooped them out? They can't have been in there for long..."
             p "Even if we could pick them out in a tank full of tadpoles, I don't think it would be such a good idea."
             p "The preserve solution they are in is pretty potent. They wouldn't grow {w=1}{cps=*0.5}right...{/cps}"
@@ -123,7 +127,7 @@ label croakma_postbath_mildlyupset:
             p "Honestly, you sounded so tired and overwhelmed..."
             p "I know you might feel like it's a waste of eggs, but you were going to run yourself into the ground."
             p "And I got the feeling you knew that but could not make the decision?"
-            show client upset with Dissolve(0.25)
+            show client upset with Dissolve(0.3)
             ca "Maybe..."
             ca "Still, I didn't expect you to do that."
             ca "What did you do with them?"
@@ -135,22 +139,24 @@ label croakma_postbath_mildlyupset:
     ca "I'll just get on with my day then."
     p "Thank you for your patronage."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
 label croakma_postbath_thankyou:
 
-    show client croakma happy at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client croakma happy at client_pos with Dissolve(3.0)
     $ current_character = "ca"
 
     ca "Ah, this was nice!"
     ca "Oh, I had forgotten my taddies here..."
     ca "Thank you for keeping an eye on them!"
 
-    hide tadpole_jar with Dissolve(0.25)
+    hide tadpole_jar with Dissolve(0.3)
 
-    show client happyjar with Dissolve(0.25)
+    show client happyjar with Dissolve(0.3)
 
     menu:
         "You're welcome.":
@@ -166,14 +172,16 @@ label croakma_postbath_thankyou:
     p "I hope to see you next year, and in the meantime, please take care."
     ca "You do too! Goodbye."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
 
 label croakma_postbath_forget:
 
-    show client croakma thinking at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client croakma thinking at client_pos with Dissolve(3.0)
     $ current_character = "ca"
 
     ca "Oh bother!"
@@ -188,7 +196,8 @@ label croakma_postbath_forget:
     ca "Goodbye, then."
     p "Goodbye, take care."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     pw "That went better than expected!"
 
@@ -197,8 +206,8 @@ label croakma_postbath_forget:
 
 label croakma_postbath_burden:
 
-
-    show client croakma notsure at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client croakma notsure at client_pos with Dissolve(3.0)
     $ current_character = "ca"
 
     ca "Oh bother!"
@@ -210,8 +219,8 @@ label croakma_postbath_burden:
     pw "Oh, maybe I should have put them away then."
     pw "But then, it doesn't feel like a decision I should make for her..."
 
-    hide tadpole_jar with Dissolve(0.25)
-    show client sadjar with Dissolve(0.25)
+    hide tadpole_jar with Dissolve(0.3)
+    show client sadjar with Dissolve(0.3)
 
     ca "Here I go then."
 
@@ -226,6 +235,7 @@ label croakma_postbath_burden:
             p "I can still see you..."
             ca "Yes, yes, I'm going...    "
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3.0)
 
     return

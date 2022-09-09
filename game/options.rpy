@@ -59,11 +59,15 @@ define config.has_voice = False
 # define config.sample_voice = "sample-voice.ogg"
 
 
-## Uncomment the following line to set an audio file that will be played while
+## The following line to set an audio file that will be played while
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "/audio/People in the Street.mp3"
+
+## Default volume
+define config.default_music_volume = 0.6
+define config.default_sfx_volume = 0.5
 
 
 ## Transitions #################################################################

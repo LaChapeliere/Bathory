@@ -27,6 +27,7 @@ style gui_text:
 
 style button:
     properties gui.button_properties("button")
+    activate_sound "/audio/button.mp3"
 
 style button_text is gui_text:
     properties gui.text_properties("button")
@@ -174,7 +175,7 @@ style psay_frame:
     # What pixel of the frame is used to position the frame
     anchor (0.0, 1.0)
     # position
-    xpos 1000
+    xpos 1080
     ypos 1060
     #size
     minimum (gui.textbox_width, gui.textbox_min_height)
@@ -244,6 +245,7 @@ style choice_button is default:
     background None
     top_padding 5
     left_padding 65
+    activate_sound "/audio/button.mp3"
 
 style choice_text is default:
     properties gui.button_text_properties("choice_button")
@@ -298,6 +300,7 @@ style navigation_button:
     size_group "navigation"
     properties gui.button_properties("navigation_button")
     xalign 0.5
+    activate_sound "/audio/button.mp3"
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
@@ -634,6 +637,7 @@ style radio_button:
     hover_background "/gui/button/check_hover.png"
     selected_idle_background "/gui/button/check_selected_idle.png"
     selected_hover_background "/gui/button/check_selected_hover.png"
+    activate_sound "/audio/button.mp3"
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
@@ -648,6 +652,7 @@ style check_button:
     hover_background "/gui/button/check_hover.png"
     selected_idle_background "/gui/button/check_selected_idle.png"
     selected_hover_background "/gui/button/check_selected_hover.png"
+    activate_sound "/audio/button.mp3"
 
 style check_button_text:
     properties gui.button_text_properties("check_button")
@@ -729,6 +734,7 @@ style confirm_prompt_text:
 
 style confirm_button:
     properties gui.button_properties("confirm_button")
+    activate_sound "/audio/button.mp3"
 
 style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
@@ -843,12 +849,14 @@ screen quick_buttons():
             idle "/gui/button/pause_idle.png"
             hover "/gui/button/pause_hover.png"
             action ShowMenu("preferences")
+            activate_sound "/audio/button.mp3"
 
         imagebutton:
             at Transform(zoom=0.3)
             idle "/gui/button/quit_idle.png"
             hover "/gui/button/quit_hover.png"
             action Quit(confirm=True)
+            activate_sound "/audio/button.mp3"
 
 ## Ingredients screens ###############################################################
 ##
@@ -909,6 +917,7 @@ screen ingredients():
                     Hide("choice"), # Shouldn't be necessary, just in case
                     Hide("psay"),
                     Show("ingredient_confirm", ingredient = i)]
+                activate_sound "/audio/button.mp3"
                 yalign 1.0
 
 
@@ -928,11 +937,13 @@ screen ingredient_confirm(ingredient):
                 idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
                 hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
                 text "Add"
+                activate_sound "/audio/ingredient.mp3"
             button:
                 action Hide("ingredient_confirm")
                 idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
                 hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
                 text "Put back"
+                activate_sound "/audio/button.mp3"
 
 ## Display the bathball
 screen bathball():
@@ -1019,17 +1030,15 @@ screen final_credits():
 
         hbox:
             xalign 0.5
-            yalign 0.5
             spacing 30
             image "/gui/window_icon.png"
             text endgame_in_credits style "article_text" line_spacing 20
 
         hbox:
             xalign 0.5
-            yalign 0.5
             spacing 30
-            image "/images/props/icon whisper.png"
-            text endgame_out_credits style "article_text" line_spacing 20
+            image "/images/props/icon whisper.png" yalign 0.5
+            text endgame_out_credits style "article_text" line_spacing 20 size gui.notify_text_size
 
 screen newspaper(articles):
     style_prefix "newspaper"
@@ -1039,6 +1048,8 @@ screen newspaper(articles):
         scrollbars "vertical"
 
         vbox:
+            null height 30
+
             for a in articles:
                 use article(a["title"], a["text"], a["image"])
                 image Transform("/gui/scrollbar/horizontal_idle_bar.png", xsize=800, ysize=3, xcenter=0.5)

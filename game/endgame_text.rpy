@@ -142,7 +142,8 @@ Apparently, most of her players were unhappy this time.""",
 {b}Marsheleene{/b}: Unity and Yarnspinner programming (prototype)
 {b}Sweetberry{/b}: Visual art"""
 
-    endgame_out_credits = """{b}Kit{/b}: Game design and character writing
-{b}LaChapeliere{/b}: Game design, character writing and Renpy programming
-{b}Marsheleene{/b}: Unity and Yarnspinner programming (prototype)
-{b}Sweetberry{/b}: Visual art"""
+    endgame_out_credits = """Ambient sounds:'Spring Water' and 'People in the Street'by {b}Diablo Luna{/b}, https://pudretediablo.itch.io/butterfly
+SFX: "Frogs" by {b}Lisa Redfern{/b}, https://soundbible.com/2033-Frogs.html
+SFX: "Fox screaming in the night" by {b}craig.cerinocraigsays{/b}, https://freesound.org/people/craig.cerinocraigsays/sounds/537586/
+SFX: 'WorkShopIndustrySFX' from https://gamesupply.itch.io/classic-workshop-industry-sfx
+SFX: 'turning pages' by {b}Lucas100000{/b}, https://freesound.org/people/Luke100000/sounds/511847/"""

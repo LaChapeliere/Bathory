@@ -1,6 +1,7 @@
 label fff_intro:
 
-    show client fff hiden at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client fff hiden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     p "Welcome to Bathory"
@@ -89,7 +90,8 @@ label fff_intro:
 
     p "And here it is! Enjoy your bath, and your search."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     return
 
@@ -119,7 +121,8 @@ label fff_postbath_fork:
 
 label fff_postbath_overpowered:
 
-    show client fff hiden at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client fff hiden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     gn "My dear dear d.. deer chief, what a formidable invest..igation! Your bath are quite the thing."
@@ -153,14 +156,16 @@ label fff_postbath_overpowered:
             p "Great job finding what your riddle meant! I hope you'll have a great festival Mr. Gordon"
     gn "Bye you beaut.. ti.. tiful Sir!"
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     return
 
 
 label fff_postbath_satisfied:
 
-    show client fff hiden at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client fff hiden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     gn "Exqu..isite! That was so soft and p...pleasing."
@@ -188,7 +193,8 @@ label fff_postbath_satisfied:
     fie "I can't wait to see their faces tomorrow, we'll tell them about this BATH OF POWER."
     fey "Keep c.. calm *yaaaawn*"
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     p "They were quite a trio, these three little fellas!"
 
@@ -197,7 +203,8 @@ label fff_postbath_satisfied:
 
 label fff_postbath_anger:
 
-    show client fff angry at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client fff angry at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     fie "OMG! We searched for SO LONG!"
@@ -218,7 +225,8 @@ label fff_postbath_anger:
     p "Calm down."
     fey "Thanks but we d... don...'t want to. We n.. need t.. to.. to tell them."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     pw "*sigh* Have a nice festival..."
 
@@ -227,7 +235,8 @@ label fff_postbath_anger:
 
 label fff_postbath_tired:
 
-    show client fff tired at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client fff tired at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     fweyw "yawn* Daaaaamn, this is really hard work, human documentation doesn't lie."
@@ -252,6 +261,7 @@ label fff_postbath_tired:
     fey "We took long to guess it, maybe it.. it was too difficult but remember the first day when we decid.. deci... ded to play FFF?"
     fie "Yeah it's quite a character this one, and how we made Crokella search into the whole camp for..."
 
-    hide client with Dissolve(1)
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(6)
 
     return

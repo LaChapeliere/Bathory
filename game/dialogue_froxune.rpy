@@ -1,6 +1,7 @@
 label froxune_intro:
 
-    show client froxune beginning at client_pos with dissolve
+    play sound "/audio/Fox.mp3"
+    show client froxune beginning at client_pos with Dissolve(3.0)
     $ current_character = "fe"
 
     fe "Hello Cr... Mister. I came here to rest before the festival tomorrow. It's always crowded and takes a lot of energy, am I right?"
@@ -45,7 +46,8 @@ label froxune_intro:
 
     p "Here it is! Enjoy your time in this \"lovely\" bath."
 
-    hide client with dissolve
+    play sound "/audio/Fox.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
@@ -68,7 +70,8 @@ label froxune_postbath_fork:
 
 label froxune_postbath_dreams:
 
-    show client froxune dreamy at client_pos with dissolve
+    play sound "/audio/Fox.mp3"
+    show client froxune dreamy at client_pos with Dissolve(3.0)
     $ current_character = "fe"
 
     fe "Oh wow that was amazing!"
@@ -118,13 +121,15 @@ label froxune_postbath_dreams:
     p "You're going to rock it, I'm sure!"
     fe "See you soon!"
 
-    hide client with dissolve
+    play sound "/audio/Fox.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
 label froxune_postbath_confident:
 
-    show client froxune happy at client_pos with dissolve
+    play sound "/audio/Fox.mp3"
+    show client froxune happy at client_pos with Dissolve(3.0)
     $ current_character = "fe"
 
     fe "That was comforting."
@@ -157,14 +162,16 @@ label froxune_postbath_confident:
     fe "Goodbye and see you soon!"
     p "Good luck!"
 
-    hide client with dissolve
+    play sound "/audio/Fox.mp3"
+    hide client with Dissolve(3.0)
 
     return
 
 
 label froxune_postbath_depressed:
 
-    show client froxune sad at client_pos with dissolve
+    play sound "/audio/Fox.mp3"
+    show client froxune sad at client_pos with Dissolve(3.0)
     $ current_character = "fe"
 
     few "Frogs have weird tendencies for their bath... I'll never be one of them..."
@@ -191,6 +198,7 @@ label froxune_postbath_depressed:
     p "C'mon, you can do it! And if you have problem, come here and talk to me this time. It's been too long since we were able to see each other like this."
     fe "Thanks."
 
-    hide client with dissolve
+    play sound "/audio/Fox.mp3"
+    hide client with Dissolve(3.0)
 
     return

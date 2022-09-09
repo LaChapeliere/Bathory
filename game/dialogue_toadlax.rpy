@@ -1,6 +1,7 @@
 label toadlax_intro:
 
-    show client toadlax beginning at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client toadlax beginning at client_pos with Dissolve(3)
     $ current_character = "tx"
 
     p "Welcome to... {w=1.0}Oh! Toadlax, long time not seen!"
@@ -13,7 +14,7 @@ label toadlax_intro:
     p "Too bad, I'd have come listen to you..."
     p "Your singing always lift my heart!"
 
-    show client bored with Dissolve(0.25)
+    show client bored with Dissolve(0.3)
 
     tx "Yes, well, that wasn't the opinion of the temple masters, was it?"
     tx "A vulgar swamp frog like myself can't possibly grasp the subtlety of ceremonial singing..."
@@ -21,7 +22,7 @@ label toadlax_intro:
     p "It's their loss!"
     tx "Thanks."
 
-    show client beginning with Dissolve(0.25)
+    show client beginning with Dissolve(0.3)
 
     tx "I honestly love cooking as much as singing these days, but I still get bitter about their rejection whenever I think about it."
     p "I understand."
@@ -81,7 +82,8 @@ label toadlax_intro:
     p "Here it is, enjoy a good soak!"
     tx "Thanks! It'll give me an opportunity to fine-tune my laxative maybugs plan!"
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     pw "Wait, was she serious?"
 
@@ -106,7 +108,8 @@ label toadlax_postbath_fork:
 
 label toadlax_postbath_revenge:
 
-    show client toadlax revenge at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client toadlax revenge at client_pos with Dissolve(3)
     $ current_character = "tx"
 
     tx "I had a much better idea!"
@@ -131,13 +134,15 @@ label toadlax_postbath_revenge:
     tx "See you around!"
     p "See you soon. Take care!"
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     return
 
 label toadlax_postbath_mellow:
 
-    show client toadlax happy at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client toadlax happy at client_pos with Dissolve(3)
     $ current_character = "tx"
 
     tx "Best bath ever..."
@@ -153,14 +158,16 @@ label toadlax_postbath_mellow:
     p "It'd be really nice! Come whenever you want!"
     tx "Cheers pal!"
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     return
 
 
 label toadlax_postbath_laxative:
 
-    show client toadlax interrogative at client_pos with dissolve
+    play sound "/audio/Frogs.mp3"
+    show client toadlax interrogative at client_pos with Dissolve(3)
     $ current_character = "tx"
 
     tx "Hum, which do you think would work best frozen?"
@@ -181,7 +188,8 @@ label toadlax_postbath_laxative:
     tx "I just want them to get what's coming to them for once..."
     tx "Anyway, I'll see you around."
 
-    hide client with dissolve
+    play sound "/audio/Frogs.mp3"
+    hide client with Dissolve(3)
 
     pw "I hope she doesn't get into too much trouble."
 
