@@ -99,17 +99,21 @@ label fff_postbath_fork:
         # positive
         if bathball_results["fff"][0] > 0:
             # high
+            $ endings.append(endgame_info["fff"]["overpowered"])
             jump fff_postbath_overpowered
         else:
             #low
+            $ endings.append(endgame_info["fff"]["satisfied"])
             jump fff_postbath_satisfied
     else:
         #negative
         if bathball_results["fff"][0] > 0:
             # high
+            $ endings.append(endgame_info["fff"]["anger"])
             jump fff_postbath_anger
         else:
             #low
+            $ endings.append(endgame_info["fff"]["tired"])
             jump fff_postbath_tired
 
 

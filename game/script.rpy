@@ -110,6 +110,7 @@ label start:
 
     # Show button to access menu
     show screen quick_buttons
+
     show screen ingredients
 
     scene bg inside
@@ -135,14 +136,21 @@ label start:
 
     call taddeus_postbath_fork from _call_taddeus_postbath_fork
 
+    # Ending
+    hide screen ingredients
+    hide counter
+    scene bg paper
+    $ renpy.random.shuffle(endings)
+    call screen newspaper(endings)
+
     return
 
 label testscene:
 
     scene bg paper
 
-    $test_article = endgame_info["tx"]["revenge"]
-    call screen article(test_article["title"], test_article["text"], test_article["image"])
+    $ articles = [endgame_info["tx"]["revenge"], endgame_info["tx"]["mellow"], endgame_info["tx"]["laxative"], endgame_info["ca"]["mildlyupset"], endgame_info["ts"]["revenge"], endgame_info["ts"]["priceoffame"]]
+    call screen newspaper(articles)
 
 
     return

@@ -54,12 +54,15 @@ label froxune_postbath_fork:
         # positive
         if bathball_results["fe"][0] > 0:
             # high
+            $ endings.append(endgame_info["fe"]["dreams"])
             jump froxune_postbath_dreams
         else:
             #low
+            $ endings.append(endgame_info["fe"]["confident"])
             jump froxune_postbath_confident
     else:
         # negative
+        $ endings.append(endgame_info["fe"]["depressed"])
         jump froxune_postbath_depressed
 
 

@@ -73,12 +73,15 @@ label taddeus_postbath_fork:
         # high
         if bathball_results["ts"][1] > 0:
             # positive
+            $ endings.append(endgame_info["ts"]["teafarm"])
             jump taddeus_postbath_teafarm
         else:
             # negative
+            $ endings.append(endgame_info["ts"]["revenge"])
             jump taddeus_postbath_revenge
     else:
         # low
+        $ endings.append(endgame_info["ts"]["priceoffame"])
         jump taddeus_postbath_priceoffame
 
 

@@ -976,3 +976,88 @@ transform bathball_dissolve:
     on hide:
         alpha 1.0
         linear .25 alpha 0
+
+
+
+## End game ###############################################################
+##
+## Article screens with various layouts
+
+screen article(title, content, pic):
+    style_prefix "article"
+
+    hbox:
+        if pic:
+            image Transform(pic, xsize=600, ysize=600)
+        vbox:
+            if title:
+                text title style_prefix "article_title"
+            if content:
+                text content
+
+style article_hbox:
+    xalign 0.5
+
+style article_title_text is main_menu_text
+style article_title_text:
+    font gui.bold_text_font
+    size 42
+
+style article_vbox:
+    yalign 0.5
+    spacing 50
+
+style article_text is default
+style article_text:
+    justify True
+
+screen final_credits():
+
+    vbox:
+
+        text "Credits" style_prefix "article_title"
+
+        hbox:
+            xalign 0.5
+            yalign 0.5
+            spacing 30
+            image "/gui/window_icon.png"
+            text endgame_in_credits style "article_text" line_spacing 20
+
+        hbox:
+            xalign 0.5
+            yalign 0.5
+            spacing 30
+            image "/images/props/icon whisper.png"
+            text endgame_out_credits style "article_text" line_spacing 20
+
+screen newspaper(articles):
+    style_prefix "newspaper"
+
+    viewport:
+        mousewheel True
+        scrollbars "vertical"
+
+        vbox:
+            for a in articles:
+                use article(a["title"], a["text"], a["image"])
+                image Transform("/gui/scrollbar/horizontal_idle_bar.png", xsize=800, ysize=3, xcenter=0.5)
+
+            use final_credits
+
+            null height 100
+
+style newspaper_viewport:
+    xpos 150
+    xsize 1500
+    ypos 320
+    ysize 780
+
+style newspaper_vscrollbar:
+    #anchor(1.0, 0.0)
+    xpos 300
+    ypos 350
+    ysize 700
+
+style newspaper_vbox:
+    spacing 80

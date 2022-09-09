@@ -92,12 +92,15 @@ label toadlax_postbath_fork:
         # positive
         if bathball_results["tx"][0] > 0:
             # high
+            $ endings.append(endgame_info["tx"]["revenge"])
             jump toadlax_postbath_revenge
         else:
             #low
+            $ endings.append(endgame_info["tx"]["mellow"])
             jump toadlax_postbath_mellow
     else:
         #negative
+        $ endings.append(endgame_info["tx"]["laxative"])
         jump toadlax_postbath_laxative
 
 

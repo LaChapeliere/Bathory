@@ -70,17 +70,21 @@ label croakma_postbath_fork:
         # positive
         if stole_tadpoles:
             # stole the tadpoles
+            $ endings.append(endgame_info["ca"]["mildlyupset"])
             jump croakma_postbath_mildlyupset
         else:
             #left the tadpoles
+            $ endings.append(endgame_info["ca"]["thankyou"])
             jump croakma_postbath_thankyou
     else:
         # negative
         if stole_tadpoles:
             # stole the tadpoles
+            $ endings.append(endgame_info["ca"]["forget"])
             jump croakma_postbath_forget
         else:
             #left the tadpoles
+            $ endings.append(endgame_info["ca"]["burden"])
             jump croakma_postbath_burden
 
 

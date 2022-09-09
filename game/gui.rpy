@@ -67,6 +67,9 @@ define gui.name_text_font = "fonts/Sono/desktop/Sono-Regular.ttf"
 ## The font used for out-of-game text.
 define gui.interface_text_font = "fonts/Sono/desktop/Sono-Regular.ttf"
 
+# The font used for bold end-game text.
+define gui.bold_text_font = "fonts/Sono/desktop/Sono-Bold.ttf"
+
 ## The size of normal dialogue text.
 define gui.text_size = 33
 
