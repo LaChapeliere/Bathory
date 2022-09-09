@@ -14,11 +14,11 @@ label croakma_intro:
     ca "Well, to be honest, busy I could deal with."
     ca "But I had to go and lay eggs right before the festival, and now I'm stuck lugging those tadpoles around."
     menu:
-        "I can see why that would tiring, especially if you have to run around a lot.":
-            p "I can see why that would tiring, especially if you have to run around a lot."
+        "I can see why that would be tiring, especially if you have to run around a lot.":
+            p "I can see why that would be tiring, especially if you have to run around a lot."
             ca "Exactly! I'm lucky to my job isn't too demanding."
             ca "I take care of the crystals for the transportation portals..."
-            ca "Not much to do once everything is setup, apart from being on call in case anything goes wrong."
+            ca "Not much to do once everything is set up, apart from being on call in case anything goes wrong."
             ca "But the festival is only once a year, and there's so many people to visit with!"
             ca "Distant cousins, children who had the fantastic idea to move half-a-world away..."
             ca "Not to mention friends from my time learning crystal crafting!"
@@ -29,14 +29,14 @@ label croakma_intro:
             ca "Yes, well, I'm not even sure myself why I do it..."
         "Why are you keeping them, then?":
             p "Why are you keeping them, then?"
-            ca "You know what, I've been asking myself the same question since coming onsite."
+            ca "You know what, I've been asking myself the same question since coming on-site."
             ca "I feel like, you know, since I already went through all that trouble..."
             ca "Laying eggs, making sure no predator ate them, bringing the tads with me here..."
             ca "Sure, it's not like they are spirits yet, but it would still be wasted energy to abandon them now."
             ca "Isn't that a pigheaded thing, to stick to doing something that harms you because you've invested too much already?"
-            ca "Anyway, while I was setting up I was able to just leave them in my toolshed."
+            ca "Anyway, while I was setting up I was able to just leave them in my tool shed."
             ca "But now that the portals are up and running, I only need to check on the crystal once a day."
-            ca "The useless creatures can't go that long without beeing fed, so I have to carry them with me all over the place!"
+            ca "The useless creatures can't go that long without being fed, so I have to carry them with me all over the place!"
             ca "Anyway..."
 
     show client upset with Dissolve(0.3)

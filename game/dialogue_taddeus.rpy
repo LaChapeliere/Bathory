@@ -27,7 +27,7 @@ label taddeus_intro:
     menu:
         "Hum, are you the toad who built the Aquadiva Opera?":
             p "Hum, are you the toad who built the Aquadiva Opera?"
-            ts "Yes, it is one of my better known works, with the One-Thousand Palace and the modular Underfloating compexes..."
+            ts "Yes, it is one of my better known works, with the One-Thousand Palace and the modular Underfloating complexes..."
             ts "How refreshing to meet someone who have barely heard of me!"
         "Of course. Making a fuss when we recognise a famous or infamous client is simply against our policy.":
             p "Of course. Making a fuss when we recognise a famous or infamous client is simply against our policy."
@@ -203,7 +203,7 @@ label taddeus_postbath_priceoffame:
             p "You can still decide whether that price is reasonable or not."
             ts "And if I decide it is not?"
             p "Well, then you can think about changing your life around?"
-            p "You mentionned your cousin's invited you to work on their tea farm..."
+            p "You mentioned your cousin's invited you to work on their tea farm..."
             ts "It is a nice thought, but one must remain realistic."
             ts "I cannot run away from my responsibilities."
             ts "And if I want to get away from it all for a few hours, I can come back here, can I not?"

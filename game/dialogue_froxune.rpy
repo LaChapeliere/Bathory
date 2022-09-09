@@ -30,13 +30,13 @@ label froxune_intro:
     fe "I'll welcome your explanations, with pleasure!"
     fe "I'm passionate about spirits, mostly frog ones, but I haven't had the chance to come in and see y{cps=*0.3}...{/cps} {cps=*3}See, see, see this place.{/cps}"
     p "As you know, we love a lot of things, but here we selected ingredients that have an influence on your emotions."
-    p "We have ginger bark, purple algae, artic snake skin, trippy tadpoles, grey clay and dry guano."
+    p "We have ginger bark, purple algae, arctic snake skin, trippy tadpoles, grey clay and dry guano."
     fe "Eeeeek! {w=1.0}Hm I mean, I mean, I mean, sounds lovely of course!"
     fe "How did you select these ingredients? I didn't know you had such powers!"
     p "{cps=*0.3}...{/cps}"
     pw "I think I know them..."
     fe "Hum I, I, I hum I mean you don't look like a frog that could do such things."
-    p "It's my sister, we opened these bath together, she's really great at influencing people's emotions."
+    p "It's my sister, we opened these baths together, she's really great at influencing people's emotions."
     p "We decided to create this place to help every frog sort through their issues and thoughts while having a good soak."
     fe "Oh okay, yeah you mentioned that... Hum, your sister, it's great to stay with our family sometimes."
     fe "Anyway, I think I should have that bath. I hope it'll give me strength for tomorrow!"
@@ -82,7 +82,7 @@ label froxune_postbath_dreams:
 
     show client happy with Dissolve(0.3)
 
-    fe "Don't act like you didn't knew when I came in."
+    fe "Don't act like you didn't know when I came in."
     menu:
         "I knew, but you've gotten better at mimicking us.":
             p "I knew, but you've gotten better at mimicking us."
@@ -181,7 +181,7 @@ label froxune_postbath_depressed:
             p "A great one or...?"
         "Experiences make life exciting!":
             p "Experiences make life exciting!"
-    fe "Eh you know me, I'm not so good with new things. I didn't realized frogs loved these sort of things so much!"
+    fe "Eh you know me, I'm not so good with new things. I didn't realise frogs loved that sort of things so much!"
     p "Oh yeah, it's you, Froxune! I almost didn't recognize you, you grew up so much!"
     p "I was suspicious before your bath... So you finally came to the frog realm for the big festival!"
     fe "It was quite my big dream for life, as you know."
@@ -189,7 +189,7 @@ label froxune_postbath_depressed:
     fe "Eh, I'm not sure I'll go tomorrow. I'm sure you're the only frog I can get along with."
     fe "All the others will be afraid of me, or hate me. It can't be otherwise."
     p "*sigh* You know, when we were children, I wasn't afraid of you. My parent, they told me stories about big bad foxes and how they treat every other spirits."
-    p "But I saw that you're not like this. You're kind, you're thoughful, you have a lot of empathy."
+    p "But I saw that you're not like this. You're kind, you're thoughtful, you have a lot of empathy."
     p "I'm sure other frogs can keep an open mind about this and welcome you within our realm."
     fe "I'm worried you know. My fortune telling powers have put me through hard times before."
     p "Your fortune telling skills or your bluntness? *lil laugh*"

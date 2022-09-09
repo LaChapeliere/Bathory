@@ -1,11 +1,11 @@
 label fff_intro:
 
     play sound "/audio/Frogs.mp3"
-    show client fff hiden at client_pos with Dissolve(3)
+    show client fff hidden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
-    p "Welcome to Bathory"
-    gn "Hel.. Hel.. Hello chief! We are her.. here to take a bath, we ain't no tadpoles but we love the pool."
+    p "Welcome to Bathory."
+    gn "Hel.. Hel.. Hello chief! We are her.. here to have a bath, we ain't no tadpoles, but we love the pool."
     p "I believe it's your first visit to our place. Do you know how our baths work?"
 
     show client beginning with Dissolve(0.3)
@@ -13,7 +13,7 @@ label fff_intro:
     fiew "She's really in character!"
     fweyw "Shhhht"
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     gn "That that would be a pr.. prec.. pr.. precious knowledge for my investigation."
     p "Oh, you're a detective? What brings you here?"
@@ -23,9 +23,9 @@ label fff_intro:
     fiew "Don't say too much you magpie eh!"
     feyw "I know, believe in me! We prepared ourselves. Stay quiet."
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
-    gn "I'm sear.. searching for a certain object. Some must say, a pr.. prec.. precious artifact."
+    gn "I'm sear.. searching for a certain object. Some must say, a pr.. prec.. precious artefact."
     gn "It would appear to you simple, plain. But it could save the world!"
     gn "I'm her..e to retr... ret... retrieve it before it falls in the hands of Waetùl, the evil academician."
     gn "Or academinician would be more appropriate eheh."
@@ -45,7 +45,7 @@ label fff_intro:
     fiew "Ain't afraid of nothing!"
     fweyw "I'm really really REALLY curious!!"
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     gn "Indeed my Mister, we are up for it. Our mission require secrecy but als... also inspir... ation."
     menu:
@@ -60,7 +60,7 @@ label fff_intro:
     fiew "Stop the jokes, you!"
     feyw "Stay quiet.. t.. quiet."
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     pw "I don't know what game they're playing, but it sounds very confusing."
     p "So, are you confident about your investigation so far?"
@@ -69,15 +69,15 @@ label fff_intro:
     show client beginning with Dissolve(0.3)
 
     fiew "I'm wondering guys, is this place really the right one?"
-    fweyw "I mean, an artifact hidden into a secret spirit inn, seems legit to put it in here."
+    fweyw "I mean, an artefact hidden into a secret spirit inn, seems legit to put it in here."
     feyw "I'm worried too, chief is nice but.. but.. but is she really an NPC?"
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     pw "A NPC? What's that supposed to be?"
     gn "Hmm anyway, could we get a bath sir please?"
     p "Of course. I'll prepare your bathbomb right away! You can {b}all{/b} relax."
-    fweyw "The artifact should be in the second bath of the first floor. Ask for this bath!!"
+    fweyw "The artefact should be in the second bath of the first floor. Ask for this bath!!"
     gn "Oh yes. Hmm, can I have the s.. sec.. second bath of the first floor please."
     p "This bath is free, so make yourself at home. Can I ask why this bath in particular?"
     gn "Spiritumental Secret Defense. SSD."
@@ -122,7 +122,7 @@ label fff_postbath_fork:
 label fff_postbath_overpowered:
 
     play sound "/audio/Frogs.mp3"
-    show client fff hiden at client_pos with Dissolve(3)
+    show client fff hidden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     gn "My dear dear d.. deer chief, what a formidable invest..igation! Your bath are quite the thing."
@@ -133,7 +133,7 @@ label fff_postbath_overpowered:
     fweyw "We will go to the human realm, have so much power with this suit and save all the worlds in the world!!"
     feyw "Quiet, it was am.. amazing but we have to stay in character."
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     p "My bath seemed to help!"
     menu:
@@ -141,7 +141,7 @@ label fff_postbath_overpowered:
             p "So, how did the investigation go?"
         "I'm happy that you feel great now! What's next?":
             p "I'm happy that you feel great now! What's next?"
-    gn "After all these pr.. precious adventures, we gained no artifact but I can fe..feel the power in me right now."
+    gn "After all these pr.. precious adventures, we gained no artefact but I can fe..feel the power in me right now."
     gn "I believe that's what the rid.. rid.. riddle wanted us hmm me to find."
 
     show client confident with Dissolve(0.3)
@@ -165,7 +165,7 @@ label fff_postbath_overpowered:
 label fff_postbath_satisfied:
 
     play sound "/audio/Frogs.mp3"
-    show client fff hiden at client_pos with Dissolve(3)
+    show client fff hidden at client_pos with Dissolve(3)
     $ current_character = "fff"
 
     gn "Exqu..isite! That was so soft and p...pleasing."
@@ -176,7 +176,7 @@ label fff_postbath_satisfied:
     fweyw "Too bad we found nothing, but Frogey you did a great job. We got into the bath and now we feel sooooo goood. *yawn*"
     feyw "Thanks but quiet, or chief will understand."
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     p "I'm happy to hear this. You seemed stressed, I gave you a happy and relaxing bath. Like a soft water massage you could say."
     gn "A massage delivering a message, indeed."
@@ -187,7 +187,7 @@ label fff_postbath_satisfied:
     fiew "Hey you! You've lost character."
     feyw "I know but..but I don't think that mat..mat..matter anymore."
     fweyw "frown It matters a little..."
-    fie "Oh come on! We had a great time and we will tomorrow, too! Remember how we started this game?"
+    fie "Oh come on! We had a great time, and we will tomorrow, too! Remember how we started this game?"
     fey "Yeah. We went to.. to the see great Felune, and met Platyss."
     fwey "And she was so out of place among frogs! But lead us to our first interspirit LARP!!"
     fie "I can't wait to see their faces tomorrow, we'll tell them about this BATH OF POWER."
@@ -243,7 +243,7 @@ label fff_postbath_tired:
     fey "Yeah, we s.. searched everywhe..re and n.. no..w *yaaaaaawn*"
     fie "Hey pals, we need to stay in character. *yawn*"
 
-    show client hiden with Dissolve(0.3)
+    show client hidden with Dissolve(0.3)
 
     p "So, how was this investigation?"
     gn "It was exq.. exqu.. great, but I'm afraid we didn't find anything for our quest euhm case."

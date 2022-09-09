@@ -70,7 +70,7 @@ label toadlax_intro:
     tx "Right, of course!"
     tx "Do you have new ingredients for your bath balls?"
     p "They are called bath bombs, you know that!"
-    tx "Yeah, well, they are round so I'll call them balls if I want!"
+    tx "Yeah, well, they are round, so I'll call them balls if I want!"
     tx "Plus, most of them just melt or fizzle out, they don't actually explode, so I don't see why you insist on calling them bombs."
     p "It's all about their impact. They are too awesome to just be called balls!"
     tx "Sure, whatever you say."
@@ -149,7 +149,7 @@ label toadlax_postbath_mellow:
     p "I'm glad you liked it so much!"
     tx "Yes, I feel all mellow and satisfied."
     tx "I think you saved a few VIPs from a laxative attack, haha."
-    tx "I hadn't realise I was so tense, I would probably have ended up poisoning the next dryfrog to make a speciesist comment."
+    tx "I hadn't realise I was so tense, I would probably have ended up poisoning the next dryfrog who made a speciesist comment."
     p "They'd have deserved it, but I'd have been sad if it had cost you your job..."
 
     show client beginning with Dissolve(0.3)

@@ -10,7 +10,7 @@ init python:
             },
             "mellow": {
                 "title": "A genius at the festival",
-                "text": "After refusing several invitations to speak at our annual festival, Frogeek the Magnificient have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the mean time, the Magnificient is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nimbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificient",
+                "text": "After refusing several invitations to speak at our annual festival, Frogeek the Magnificient have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the meantime, the Magnificient is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nimbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificient",
                 "image": None
             },
             "laxative": {
@@ -22,34 +22,34 @@ init python:
         "fe": {
             "dreams": {
                 "title": None,
-                "text": """Do you remember, about a year ago, the rumors about a strange place where you can take baths that will change your life??
+                "text": """Do you remember, about a year ago, the rumours about a strange place where you can take baths that will change your life??
 We continued to investigate and some news about it seems to have risen!
 People have started saying that now a fox works there, a friendly fox!?
-That's just unbelievable, my dears! We need more informations about this...
+That's just unbelievable, my dears! We need more information about this...
 AND WE WILL HAVE IT!""",
                 "image": None
             },
             "confident": {
                 "title": "What about this new realm law: \"All spirits are welcome again.\"",
-                "text": """Everything started when a strange fortune teller placed their flashy stand in the festival central place.
+                "text": """Everything started when a strange fortune-teller placed their flashy stand in the festival central place.
 Some of our citizens began to gather around this stand, and they seemed to be pleased by what they had on offer. Your fellow reporter couldn't let that slip and had to try the stand for himself.
 
-A weird toad told me to give my name and date of birth. These are non confidential material, and I was surprised that a fortune teller couldn't have it without me telling them. But I told them anyway.
+A weird toad told me to give my name and date of birth. These are non confidential material, and I was surprised that a fortune-teller couldn't have it without me telling them. But I told them anyway.
 After that, they asked me if I was willing to know something about my future, even if it was not pleasant. Yeah yeah sure, go ahead and tell me. I had serious doubt about these "powers", I mean, no toad would have this kind of knowledge or arts.
 
-And then... They told me, they told me my future in a blunt way. It was quite hurtful because apparently I will get into trouble with my redaction for being too strict about who I will get as an assistant. I was pissed off, I need no assistant of any sort. I can handle my work by myself. They reassured me, told me that it was not about questioning my ability but my well being. I love my work but yeah sometimes it gets hard. They told me I have great value and I should open my mind into meeting other people, even people that are not like me. It was amazing.
+And then... They told me, they very bluntly told me my future. It was quite hurtful because apparently I will get into trouble with my redaction for being too strict about who I will get as an assistant. I was pissed off, I need no assistant of any sort. I can handle my work by myself. They reassured me, told me that it was not about questioning my ability but my well-being. I love my work but yeah sometimes it gets hard. They told me I have great value and I should open my mind into meeting other people, even people that are not like me. It was amazing.
 
 How surprised I was when they came out as a FOX! Yeah, they were a FOX disguised as a toad in order to live with us. Everyone was shocked at first, but they were so reassuring and caring, we had never seen a fox like this. Of course, the palace authority came and took them to our Prince. The Prince challenged them to tell his destiny. And the virtuous circle began again. The Prince was astonished, so much that he allowed this fox to stay with us and be the consultant of the Palace in spirit relationship.
 
-And now, I can proudly say that we are entering in an new era: frogs will open their gates to predator spirits again.
+And now, I can proudly say that we are entering a new era: frogs will open their gates to predator spirits again.
 
-Investigation lead by your renowned Croâdler""",
+Investigation led by your renowned Croâdler""",
                 "image": "/images/froxune/client froxune normal.png"
             },
             "depressed": {
                 "title": "A new shop in town!",
                 "text": """After opening a stand during the festival, Toadxune, a weird lake frog spirit with fortune telling powers decided to run their business permanently in our city.
-You can now know eveything about your destiny for modest prices! But be ready because this toad is never at a loss for words, and are frankly harsh sometimes...""",
+You can now know everything about your destiny for modest prices! But be ready because this toad is never at a loss for words, and are frankly harsh sometimes...""",
                 "image": "/images/froxune/client froxune beginning.png"
             }
         },
@@ -67,7 +67,7 @@ Don't let the world get in your face
             },
             "thankyou": {
                 "title": "Disaster strikes at the Tokelau portal!",
-                "text": "After the frog in charge of crystal maintenance fell asleep mid-fix, the Tokelau portal went out of control and exploded, resulting in almost a hundred death and twice as many injured. The spirit responsible for the catastrophe declared to our reporter: \"You try juggling a job, a social calendar and a jar of tadpoles, and we'll see how you cope!\" The judge will have to determine whether this is an acceptable defense... In the meantime, we at The Unleashed Frog send our support to the victims and their kin.",
+                "text": "After the frog in charge of crystal maintenance fell asleep mid-fix, the Tokelau portal went out of control and exploded, resulting in almost a hundred death and twice as many injured. The spirit responsible for the catastrophe declared to our reporter: \"You try juggling a job, a social calendar and a jar of tadpoles, and we'll see how you cope!\" The judge will have to determine whether this is an acceptable defence... In the meantime, we at The Unleashed Frog send our support to the victims and their kin.",
                 "image": "/images/croakma/client croakma upset.png"
             },
             "forget": {
@@ -77,7 +77,7 @@ Don't let the world get in your face
             },
             "burden": {
                 "title": None,
-                "text": "Found: unlabeled jar of tadpoles, aged 3-6 weeks. Contact Prikk for info.",
+                "text": "Found: unlabelled jar of tadpoles, aged 3-6 weeks. Contact Prikk for info.",
                 "image": "/images/props/jarcroakma.png"
             }
         },
@@ -94,14 +94,14 @@ Don't let the world get in your face
             },
             "priceoffame": {
                 "title": "Even the best have a weakness",
-                "text": "Rumors has come to our ears that the Great Taddeus Pole has been seen abusing trippy tadpoles. While this gooey snack is popular for its mild psycho effects, it's another keetle of tadpoles entirely to eat so many that one doesn't even remember their name! Fear not, dear readers, this reporter is already investigating, and will bring the truth to light, no matter how ugly...",
+                "text": "Rumours has reached our ears that the Great Taddeus Pole has been seen abusing trippy tadpoles. While this gooey snack is popular for its mild psycho effects, it's another kettle of tadpoles entirely to eat so many that one doesn't even remember their name! Fear not, dear readers, this reporter is already investigating, and will bring the truth to light, no matter how ugly...",
                 "image": None
             }
         },
         "fff": {
             "overpowered": {
                 "title": "KIDZ at the VIPZ",
-                "text": """\"OMG these guyz were GLAM\" ~ An annonymous VIP
+                "text": """\"OMG these guyz were GLAM\" ~ An anonymous VIP
 
 During this first festival day, an interesting event already went. Three little frogs got into the VIP area and started to act like a powerful male frog. The VIP were stunned by the energy and confidence of these fellas. So much, that no one felt to tell them that this area was a no go for non famous kids.
 The great actress, Cromma Rock, saw potential in those three.
@@ -115,7 +115,7 @@ This is the first time ever that common spirit kids infiltrate a big event like 
                 "title": "Nap time at the fest-time",
                 "text": """Every spirit know that festivals tend to be crowded, and there are a lot of families with children.
 Something extremely rare happened yesterday: a young frog started to read a human book about frog spirits to his two friends.
-The story was so intense and the reading lively, eventually all children gathered there and we had the quieter festival since years.""",
+The story was so intense and the reading lively, eventually all children gathered there, and we had the quieter festival since years.""",
                 "image": None
             },
             "anger": {

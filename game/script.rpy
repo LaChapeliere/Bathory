@@ -61,7 +61,7 @@ init python:
             "colour": u'CFD7D3'
         },
         "snake": {
-            "name": "Artic snake skin",
+            "name": "Arctic snake skin",
             "description": "The cold is gross, but sometimes they need to cool down",
             "energy_modifyer": -1,
             "pleasure_modifyer": -2,
