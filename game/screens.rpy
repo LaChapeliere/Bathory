@@ -330,7 +330,7 @@ screen main_menu():
     ## contents of the main menu are in the navigation screen.
     use navigation
 
-    text "A game by Kit, LaChapeliere, Marsheleene and Sweetberry" style "main_menu_text"
+    text _("A game by Kit, LaChapeliere, Marsheleene and Sweetberry") style "main_menu_text"
 
 style main_menu_text is gui_text
 
@@ -891,18 +891,18 @@ init python:
 
         # Next step
         if len(bathball_info) == 1:
-            renpy.show_screen("psay", who="", what="One down, two to go!", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            renpy.show_screen("psay", who="", what=_("One down, two to go!"), whisper=True, _widget_properties={"what": {"first_indent": 75,
             "color": gui.whisper_text_color}}) ## Whisper mode
         elif len(bathball_info) == 2:
-            renpy.show_screen("psay", who="", what="Just one more ingredient...", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            renpy.show_screen("psay", who="", what=_("Just one more ingredient..."), whisper=True, _widget_properties={"what": {"first_indent": 75,
             "color": gui.whisper_text_color}}) ## Whisper mode
         elif len(bathball_info) == 3:
-            renpy.show_screen("psay", who="", what="And one bathbomb to go!", whisper=True, _widget_properties={"what": {"first_indent": 75,
+            renpy.show_screen("psay", who="", what=_("And one bathbomb to go!"), whisper=True, _widget_properties={"what": {"first_indent": 75,
             "color": gui.whisper_text_color}}) ## Whisper mode
             bathball_results[current_character] = compute_result()
             renpy.hide_screen("bathball")
         else:
-            renpy.show_screen("psay", who="", what="Something went wrong, please contact costumer service!")
+            renpy.show_screen("psay", who="", what=_("Something went wrong, please contact costumer service!"))
 
 screen ingredients():
     style_prefix "ingredients"
@@ -936,13 +936,13 @@ screen ingredient_confirm(ingredient):
                 action [Function(add_to_bathball, ingredient=ingredient), Hide("ingredient_confirm")]
                 idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
                 hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
-                text "Add"
+                text _("Add")
                 activate_sound "/audio/ingredient.mp3"
             button:
                 action Hide("ingredient_confirm")
                 idle_background im.FactorScale("/gui/button/continue_idle.png", gui.arrow_zoom)
                 hover_background im.FactorScale("/gui/button/continue_hover.png", gui.arrow_zoom)
-                text "Put back"
+                text _("Put back")
                 activate_sound "/audio/button.mp3"
 
 ## Display the bathball
@@ -1026,7 +1026,7 @@ screen final_credits():
 
     vbox:
 
-        text "Credits" style_prefix "article_title"
+        text _("Credits") style_prefix "article_title"
 
         hbox:
             xalign 0.5
