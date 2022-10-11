@@ -1,0 +1,9 @@
+# Renpy specific ignores
+*.rpyc
+*.rpymc
+*.bak
+game/cache/
+game/saves/
+log.txt
+traceback.txt
+errors.txt
