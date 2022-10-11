@@ -4,81 +4,70 @@
 translate french craftingscene_5da2dfa1:
 
     # pw "I need to add three ingredients from the shelf."
-    pw ""
-
-# game/script.rpy:214
-translate french craftingscene_ca556652:
-
-    # pw "[result_sentence!t]"
-    pw ""
+    pw "Je dois choisir trois des ingrédients présents sur l'étagère."
 
 translate french strings:
 
     # game/script.rpy:41
     old "Purple algae"
-    new ""
+    new "Algue violette"
 
     # game/script.rpy:41
     old "Infuse their spirit with light-hearted colours"
-    new ""
+    new "Infuser leur esprit de couleurs joyeuses"
 
     # game/script.rpy:41
     old "Ginger bark"
-    new ""
+    new "Ecorce de gingembre"
 
     # game/script.rpy:41
     old "Zap and zing, straight to their veins, kind of nice"
-    new ""
+    new "Sacré coup de fouet, direct dans leur veines, plutôt agréable"
 
     # game/script.rpy:41
     old "Grey clay"
-    new ""
+    new "Argile grise"
 
     # game/script.rpy:41
     old "A good dampening base, to slow them down"
-    new ""
+    new "Une bonne base tampon, pour les ralentir"
 
     # game/script.rpy:41
     old "Arctic snake skin"
-    new ""
+    new "Peau de serpent arctique"
 
     # game/script.rpy:41
     old "The cold is gross, but sometimes they need to cool down"
-    new ""
+    new "Le froid est répugnant, mais parfois iels ont besoin se calmer"
 
     # game/script.rpy:41
     old "Trippy tadpoles"
-    new ""
+    new "Têtards hallucinogènes"
 
     # game/script.rpy:41
     old "Melt them into a happy puddle with these special snacks"
-    new ""
+    new "Faites les fondre de bonheur avec ces en-cas spéciaux"
 
     # game/script.rpy:41
     old "Dry guano"
-    new ""
+    new "Guano séché"
 
     # game/script.rpy:41
     old "It's sticky and smelly, plain gross, but will wake them up right away"
-    new ""
+    new "Collant et puant, juste dégoûtant, mais ça les réveillera sans délai"
 
-    # game/script.rpy:91
-    old "The result of this bathball is "
-    new ""
-
-    # game/script.rpy:93
+    # game/script.rpy:92
     old "high"
-    new ""
+    new "beaucoup"
 
-    # game/script.rpy:95
+    # game/script.rpy:94
     old "low"
-    new ""
+    new "un peu"
 
-    # game/script.rpy:96
-    old " energy and "
-    new ""
+# TODO: Translation updated at 2022-10-11 14:02
 
-    # game/script.rpy:101
-    old " pleasure."
-    new ""
+# game/script.rpy:201
+translate french craftingscene_12032e0f:
 
+    # pw "The result of this bathball is [nrj_string!t] energy and [pleasure_string!t] pleasure."
+    pw "Cette bombe de bain donnera [nrj_string!t] d'énergie et [pleasure_string!t] de plaisir."

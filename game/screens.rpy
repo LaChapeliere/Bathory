@@ -292,8 +292,22 @@ screen navigation():
 
         textbutton _("Content warning") action ShowMenu("about") background "../gui/button/menu_darkgreen_pad.png" xysize (509, 131)
 
+        hbox:
+            xalign 0.5
+            imagebutton:
+                idle im.FactorScale("/gui/button/lang/en_grey.png", 0.3)
+                hover im.FactorScale("/gui/button/lang/en_light.png", 0.3)
+                selected_idle im.FactorScale("/gui/button/lang/en_light.png", 0.3)
+                action Language(None)
+            imagebutton:
+                idle im.FactorScale("/gui/button/lang/fr_grey.png", 0.3)
+                hover im.FactorScale("/gui/button/lang/fr_light.png", 0.3)
+                selected_idle im.FactorScale("/gui/button/lang/fr_light.png", 0.3)
+                action Language("french")
+
 
 style navigation_button is gui_button
+style navigation_image_button is gui_button
 style navigation_button_text is gui_button_text
 
 style navigation_button:

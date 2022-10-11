@@ -87,19 +87,16 @@ init python:
     bathball_color = TintMatrix("#ffffff")
     bathball_results = {"fff": (0,0), "tx": (0,0), "fe": (0,0), "ca": (0,0), "ts": (0,0)}
 
-    def debug_result(tuple):
-        string = _("The result of this bathball is ")
+    def sumup_result(tuple):
         if tuple[0] > 0:
-            string += _("high")
+            nrj_string = _("high")
         else:
-            string += _("low")
-        string += _(" energy and ")
+            nrj_string = _("low")
         if tuple[1] > 0:
-            string += _("high")
+            pleasure_string = _("high")
         else:
-            string += _("low")
-        string += _(" pleasure.")
-        return string
+            pleasure_string = _("low")
+        return (nrj_string, pleasure_string)
 
 # The game starts here.
 
@@ -170,16 +167,6 @@ label start:
 
     return
 
-label testscene:
-
-    scene bg paper
-
-    $ articles = [endgame_info["tx"]["revenge"], endgame_info["tx"]["mellow"], endgame_info["tx"]["laxative"], endgame_info["ca"]["mildlyupset"], endgame_info["ts"]["revenge"], endgame_info["ts"]["priceoffame"]]
-    call screen newspaper(articles)
-
-
-    return
-
 
 label craftingscene:
 
@@ -210,7 +197,7 @@ label craftingscene:
     $ config.keymap['dismiss'] = [ 'mouseup_1', 'K_RETURN', 'K_SPACE', 'K_KP_ENTER', 'K_SELECT' ]
     $ config.keymap["rollforward"] = [ 'mousedown_5', 'K_PAGEDOWN', 'repeat_K_PAGEDOWN' ]
 
-    $ result_sentence = debug_result(bathball_results[current_character])
-    pw "[result_sentence!t]"
+    $ (nrj_string, pleasure_string) = sumup_result(bathball_results[current_character])
+    pw "The result of this bathball is [nrj_string!t] energy and [pleasure_string!t] pleasure."
 
     return

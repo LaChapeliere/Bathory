@@ -10,7 +10,7 @@ init python:
             },
             "mellow": {
                 "title": _("A genius at the festival"),
-                "text": _("After refusing several invitations to speak at our annual festival, Frogeek the Magnificient have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the meantime, the Magnificient is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nimbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificient"),
+                "text": _("After refusing several invitations to speak at our annual festival, Frogeek the Magnificient have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the meantime, the Magnificient is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nibbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificient"),
                 "image": None
             },
             "laxative": {
@@ -115,7 +115,7 @@ This is the first time ever that common spirit kids infiltrate a big event like 
                 "title": _("Nap time at the fest-time"),
                 "text": _("""Every spirit know that festivals tend to be crowded, and there are a lot of families with children.
 Something extremely rare happened yesterday: a young frog started to read a human book about frog spirits to his two friends.
-The story was so intense and the reading lively, eventually all children gathered there, and we had the quieter festival since years."""),
+The story was so intense and the reading lively, eventually all children gathered there, and we had the quietest festival in years."""),
                 "image": None
             },
             "anger": {
