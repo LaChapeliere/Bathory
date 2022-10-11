@@ -64,7 +64,7 @@ translate french strings:
 
     # game/screens.rpy:552
     old "Auto-Forward Time"
-    new "Durée avant de progresser automatiquement"
+    new "Avant progression automatique"
 
     # game/screens.rpy:561
     old "Music Volume"

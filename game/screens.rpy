@@ -639,7 +639,7 @@ style pref_label_text:
     yalign 1.0
 
 style pref_vbox:
-    xsize 338
+    xsize 600
 
 style radio_vbox:
     spacing gui.pref_button_spacing
@@ -673,6 +673,7 @@ style check_button_text:
 
 style slider_slider:
     xsize 525
+    thumb_offset 10
 
 style slider_button:
     properties gui.button_properties("slider_button")
