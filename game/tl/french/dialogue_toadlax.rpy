@@ -34,7 +34,7 @@ translate french toadlax_intro_099cff7d:
 translate french toadlax_intro_8bb440d5:
 
     # tx "I wish, but I actually got a pretty fancy job this year!"
-    tx "J'aimerai mais j'ai un sympatique boulot cette année, figure-toi !"
+    tx "J'aimerais bien, mais j'ai un boulot plutôt chic cette année, figure-toi !"
 
 # game/dialogue_toadlax.rpy:13
 translate french toadlax_intro_c1fb095f:
@@ -46,31 +46,31 @@ translate french toadlax_intro_c1fb095f:
 translate french toadlax_intro_a913bda2:
 
     # p "Too bad, I'd have come listen to you..."
-    p "C'est dommage, je serai venu t'écouter..."
+    p "C'est dommage, je serais venu·e t'écouter..."
 
 # game/dialogue_toadlax.rpy:15
 translate french toadlax_intro_359a39a5:
 
     # p "Your singing always lift my heart!"
-    p "Ton chant fait toujours chavirer mon coeur !"
+    p "T'entendre chanter fait toujours chavirer mon cœur !"
 
 # game/dialogue_toadlax.rpy:19
 translate french toadlax_intro_2fb608c2:
 
     # tx "Yes, well, that wasn't the opinion of the temple masters, was it?"
-    tx "Oui, ahah, c'est pas trop l'avis des maîtres du temple, n'est-ce pas ?"
+    tx "Oui, haha, c'est pas trop l'avis des maîtres du temple, n'est-ce pas ?"
 
 # game/dialogue_toadlax.rpy:20
 translate french toadlax_intro_7efba05b:
 
     # tx "A vulgar swamp frog like myself can't possibly grasp the subtlety of ceremonial singing..."
-    tx "Une vulgaire grenouille des marais ne peut pas capter les \"subtilités du chant cérémonial\"..."
+    tx "Une vulgaire grenouille des marais ne peut pas saisir les subtilités du chant cérémonial..."
 
 # game/dialogue_toadlax.rpy:21
 translate french toadlax_intro_1d787bbc:
 
     # pw "Oops, touchy topic..."
-    pw "Oups... sujet sensible."
+    pw "Oups, sujet sensible..."
 
 # game/dialogue_toadlax.rpy:22
 translate french toadlax_intro_e1a28fc9:
@@ -88,7 +88,7 @@ translate french toadlax_intro_20ee60cd:
 translate french toadlax_intro_6fe29374:
 
     # tx "I honestly love cooking as much as singing these days, but I still get bitter about their rejection whenever I think about it."
-    tx "Mais j'aime autant cuisiner que chanter ces derniers jours, mais je deviens saler de leur rejet dès que j'y repense."
+    tx "Pour être honnête, j'aime tout autant cuisiner que chanter ces jours-ci, mais leur rejet me rend toujours aussi amère à chaque fois que j'y repense."
 
 # game/dialogue_toadlax.rpy:28
 translate french toadlax_intro_bb7dfb49:
@@ -100,13 +100,13 @@ translate french toadlax_intro_bb7dfb49:
 translate french toadlax_intro_31d54937:
 
     # p "What about that new job then? Not working for the Grand Final banquet anymore?"
-    p "Et ce nouveau boulot alors ? Tu ne travailles plus pour le grand banquet final cette fois-ci ?"
+    p "Et ce nouveau boulot alors ? Tu ne travailles plus pour le banquet du Bouquet Final cette fois-ci ?"
 
 # game/dialogue_toadlax.rpy:30
 translate french toadlax_intro_6b5e9133:
 
     # tx "No, not this year! My little specialty inn was pretty successful this year, so I nabbed the VIP catering gig."
-    tx "Non, pas cette année ! Ma petite auberge spécialisée a eu beaucoup de succès cette année, alors j'ai décroché le repas du concert des VIP."
+    tx "Non, pas cette année ! Ma petite auberge spécialisée a eu beaucoup de succès cette année, alors j'ai décroché le contrat de traiteur pour les VIP."
 
 # game/dialogue_toadlax.rpy:31
 translate french toadlax_intro_e7268ed1:
@@ -118,7 +118,7 @@ translate french toadlax_intro_e7268ed1:
 translate french toadlax_intro_42ce5691:
 
     # tx "Yeah, they liked my little pitch about food satisfying the heart as much as the body."
-    tx "Yeah, ils ont aimé mon petit argumentaire sur la nourriture qui satisfait autant le cœur que le corps."
+    tx "Oui, ils ont aimé mon petit argumentaire sur la nourriture qui satisfait autant le cœur que le corps."
 
 # game/dialogue_toadlax.rpy:33
 translate french toadlax_intro_4e959e22:
@@ -136,13 +136,13 @@ translate french toadlax_intro_7ee6a73d:
 translate french toadlax_intro_07024bf7:
 
     # p "What with the long face? That sounds great, right?"
-    p "Pourquoi cette mine de déterré alors ? C'est bien, non ?"
+    p "Pourquoi cette mine de déterrée alors ? C'est bien, non ?"
 
 # game/dialogue_toadlax.rpy:39
 translate french toadlax_intro_9415c249:
 
     # tx "I guess I'm being oversensitive again..."
-    tx "Je pense que je deviens trop sensible à nouveau..."
+    tx "Je pense que je suis encore en train de sur-réagir..."
 
 # game/dialogue_toadlax.rpy:40
 translate french toadlax_intro_770157bf:
@@ -184,7 +184,7 @@ translate french toadlax_intro_83c7a597:
 translate french toadlax_intro_447b8d0d:
 
     # p "Oh, no, I'm stopping you right there!"
-    p "Non, je t'arrête tout de suite !"
+    p "Ah, non, je t'arrête tout de suite !"
 
 # game/dialogue_toadlax.rpy:47
 translate french toadlax_intro_8a3c4ac5:
@@ -196,13 +196,13 @@ translate french toadlax_intro_8a3c4ac5:
 translate french toadlax_intro_577d20b4:
 
     # p "I know there's not much we can do against ordinary specism like this, at least not without you loosing your job."
-    p "Je sais qu'on ne peut pas faire grand chose contre ce grenouillisme ordinaire, sans, du moins, que tu perds ton emploi."
+    p "Je sais qu'on ne peut pas faire grand chose contre ce grenouillisme ordinaire. Pas sans que tu perds ton emploi, en tout cas."
 
 # game/dialogue_toadlax.rpy:49
 translate french toadlax_intro_252a6f5b:
 
     # p "But we can still acknowledge that they are narrow-minded, entitled dung beetles, who wouldn't know respect if it bit them in the rear!"
-    p "Mais on peut tout de même dire que ce sont des bousiers à l'esprit borné, qui ne reconnaîtrait même pas le respect, même si celui-ci leur mordait le derrière."
+    p "Mais on peut tout de même dire que ce sont des bousiers à l'esprit borné, qui se croient tout permis et ne savent pas ce qu'est le respect."
 
 # game/dialogue_toadlax.rpy:53
 translate french toadlax_intro_44dd0f7d:
@@ -220,13 +220,13 @@ translate french toadlax_intro_486c58c9:
 translate french toadlax_intro_a56c187f:
 
     # tx "See how they like being the \"vulgar and dirty\" ones for a change."
-    tx "Voir s'ils aiment être \"vulgaire et sale\" pour une fois"
+    tx "Voir s'ils aiment être ceux qui sont \"vulgaires et sales\" pour une fois"
 
 # game/dialogue_toadlax.rpy:56
 translate french toadlax_intro_ed4bcb83:
 
     # p "That'd sure knock them off their pedestal!"
-    p "Fais-les tomber de leur piédestal."
+    p "Ca les ferait clairement redescendre sur terre !"
 
 # game/dialogue_toadlax.rpy:57
 translate french toadlax_intro_74658e96:
@@ -274,7 +274,7 @@ translate french toadlax_intro_f543f40a:
 translate french toadlax_intro_17bbd071:
 
     # p "There was this shapeshifter who sought me out a few months ago. Wanted advice about becoming a healer against the wishes of their family..."
-    p "Il y avait ce métamorphe qui m'a cherché il y a quelques mois. Il voulait des conseils pour devenir guérisseur contre la volonté de sa famille ..."
+    p "Il y a eu ce métamorphe qui est venu me voir il y a quelques mois. Il voulait des conseils pour devenir guérisseur contre la volonté de sa famille ..."
 
 # game/dialogue_toadlax.rpy:68
 translate french toadlax_intro_acb25d2b:
@@ -286,7 +286,7 @@ translate french toadlax_intro_acb25d2b:
 translate french toadlax_intro_41faac4a:
 
     # p "And the story of the people who come here for healing are always interesting, of course, but not really mine to tell..."
-    p "Et les histoires des gens qui viennent pour se faire soigner sont toujours intéressantes, mais ce n'est pas à moi de les raconter..."
+    p "Et les histoires des gens qui viennent pour se faire soigner sont toujours aussi intéressantes, mais ce n'est pas à moi de les raconter..."
 
 # game/dialogue_toadlax.rpy:70
 translate french toadlax_intro_990a362c:
@@ -304,13 +304,13 @@ translate french toadlax_intro_56d80fe2:
 translate french toadlax_intro_df883ad0:
 
     # p "They are called bath {b}bombs{/b}, you know that!"
-    p "On les appelle des {b}bombes{/b} de bain, tu le sais !"
+    p "On les appelle des {b}bombes{/b} de bain, je te l'ai déjà dit !"
 
 # game/dialogue_toadlax.rpy:73
 translate french toadlax_intro_d40fd67e:
 
     # tx "Yeah, well, they are round, so I'll call them balls if I want!"
-    tx "Ouai, ouai, c'est rond, donc je peux dire boule si je veux !"
+    tx "Ouais, ouais, c'est rond, donc je peux dire boule si je veux !"
 
 # game/dialogue_toadlax.rpy:74
 translate french toadlax_intro_46887d3b:
@@ -322,13 +322,13 @@ translate french toadlax_intro_46887d3b:
 translate french toadlax_intro_2178532c:
 
     # p "It's all about their impact. They are too awesome to just be called balls!"
-    p "C'est pour l'impact. Elles sont trop cool pour être appeler boules."
+    p "C'est pour l'impact. Elles sont trop cool pour être appeler des boules."
 
 # game/dialogue_toadlax.rpy:76
 translate french toadlax_intro_5aa23fef:
 
     # tx "Sure, whatever you say."
-    tx "Bien sûr, bien sûr."
+    tx "Mais oui, si ça te fait plaisir."
 
 # game/dialogue_toadlax.rpy:77
 translate french toadlax_intro_079c97c0:
@@ -358,7 +358,7 @@ translate french toadlax_intro_f6c128c0:
 translate french toadlax_intro_e4072e6a:
 
     # pw "Wait, was she serious?"
-    pw "Attends... elle est sérieuse ?"
+    pw "Attends... Elle est sérieuse là ?"
 
 # game/dialogue_toadlax.rpy:115
 translate french toadlax_postbath_revenge_fa173117:
@@ -376,55 +376,55 @@ translate french toadlax_postbath_revenge_8fc942f5:
 translate french toadlax_postbath_revenge_4baf6c0e:
 
     # tx "Don't be a monkey! It's really better!"
-    tx "Sois pas bête ! C'est vraiment mieux !"
+    tx "Ne fais pas le singe ! C'est vraiment mieux !"
 
 # game/dialogue_toadlax.rpy:121
 translate french toadlax_postbath_revenge_9d8d0404:
 
     # p "What about?"
-    p "Qu'est-ce donc ?"
+    p "A propos de quoi ?"
 
 # game/dialogue_toadlax.rpy:122
 translate french toadlax_postbath_revenge_26a7f858:
 
     # tx "Getting back at the VIP who made comments about me coming from the swamps."
-    tx "Je vais aller voir le VIP qui a fait des commentaires sur le fait que je vienne des marais."
+    tx "Rendre leur pareil aux VIP qui ont fait des commentaires sur le fait que je vienne des marais."
 
 # game/dialogue_toadlax.rpy:123
 translate french toadlax_postbath_revenge_2a381bdb:
 
     # tx "Do keep up!"
-    tx "Continue..."
+    tx "Suis, un peu !"
 
 # game/dialogue_toadlax.rpy:124
 translate french toadlax_postbath_revenge_e816f20b:
 
     # p "Alright, alright, what's the idea, then?"
-    p "Oui, oui, c'est quoi l'idée ?"
+    p "Ah oui, oui, c'est quoi l'idée, alors ?"
 
 # game/dialogue_toadlax.rpy:125
 translate french toadlax_postbath_revenge_69cfeb2e:
 
     # tx "Hum, you know what, I don't think I should tell you..."
-    tx "Hum... tu sais quoi ? Je ne devrais pas te le dire..."
+    tx "Hum... Tu sais quoi ? Je pense que je ne devrais pas te le dire..."
 
 # game/dialogue_toadlax.rpy:126
 translate french toadlax_postbath_revenge_21866137:
 
     # p "Now I'm worried. Are you going to kill anyone?"
-    p "Maintenant, je suis inquiète. Tu vas tuer quelqu'un ?"
+    p "Maintenant je suis inquiète. Tu vas tuer quelqu'un ?"
 
 # game/dialogue_toadlax.rpy:127
 translate french toadlax_postbath_revenge_a98ea7f1:
 
     # tx "Of course not! I'm not going to kill them, maim them, or anything like that!"
-    tx "Bien sûr que non ! Je ne vais pas les tuer, les estropier, ni rien de ce genre !"
+    tx "Bien sûr que non ! Je ne vais pas les tuer ou les estropier, ou autre chose du genre !"
 
 # game/dialogue_toadlax.rpy:128
 translate french toadlax_postbath_revenge_071d6fc2:
 
     # tx "I'll just be in a lot of trouble if it doesn't work."
-    tx "Je vais juste être dans la mouise si ça ne fonctionne pas."
+    tx "Je vais juste être dans une mouise terrible si ça ne fonctionne pas."
 
 # game/dialogue_toadlax.rpy:129
 translate french toadlax_postbath_revenge_7892dbcf:
@@ -442,7 +442,7 @@ translate french toadlax_postbath_revenge_6ae41f1c:
 translate french toadlax_postbath_revenge_311004b1:
 
     # tx "I'd better scram, though, if I want to get everything ready on time."
-    tx "Mais je ferais mieux de me débrouiller si je veux que tout soit prêt à temps."
+    tx "Mais je ferais mieux d'y aller si je veux que tout soit prêt à temps."
 
 # game/dialogue_toadlax.rpy:132
 translate french toadlax_postbath_revenge_01d381c4:
@@ -478,7 +478,7 @@ translate french toadlax_postbath_mellow_417bfe88:
 translate french toadlax_postbath_mellow_7006649c:
 
     # p "I'm glad you liked it so much!"
-    p "Je suis content si tu l'as apprécié autant !"
+    p "Je suis content que tu l'aies autant apprécié !"
 
 # game/dialogue_toadlax.rpy:150
 translate french toadlax_postbath_mellow_53c55c7c:
@@ -490,25 +490,25 @@ translate french toadlax_postbath_mellow_53c55c7c:
 translate french toadlax_postbath_mellow_3efcd2ec:
 
     # tx "I think you saved a few VIPs from a laxative attack, haha."
-    tx "Je pense que tu as sauvé les VIP d'une attaque de laxatif ah ah"
+    tx "Je pense que tu as sauvé les VIP d'une attaque de laxatif, ah ah"
 
 # game/dialogue_toadlax.rpy:152
 translate french toadlax_postbath_mellow_702004e7:
 
     # tx "I hadn't realise I was so tense, I would probably have ended up poisoning the next dryfrog who made a speciesist comment."
-    tx "Je n'avais pas réalisé que j'étais si tendue. J'aurais probablement fini par empoisonner la prochaine vieille grenouille qui aurait fait un commentaire grenouilliste."
+    tx "Je n'avais pas réalisé que j'étais si tendue. J'aurais probablement fini par empoisonner le prochain amphibien desséché à faire un commentaire spéciste."
 
 # game/dialogue_toadlax.rpy:153
 translate french toadlax_postbath_mellow_af0748be:
 
     # p "They'd have deserved it, but I'd have been sad if it had cost you your job..."
-    p "Ils l'ont mérité, mais j'aurai été triste si cela t'avait coûté ton travail ou pire..."
+    p "Ils l'auraient mérité, mais j'aurais été triste si cela t'avait coûté ton travail..."
 
 # game/dialogue_toadlax.rpy:157
 translate french toadlax_postbath_mellow_0c4169f8:
 
     # tx "I have to go back to my kitchen, but I'll try to visit again before the end of the festival."
-    tx "Je dois retourner à ma cuisine, mais j'essaye de venir te voir à nouveau avant la fin du festival."
+    tx "Je dois retourner à ma cuisine, mais j'essaye de revenir te voir avant la fin du festival."
 
 # game/dialogue_toadlax.rpy:158
 translate french toadlax_postbath_mellow_2f21a79c:
@@ -520,7 +520,7 @@ translate french toadlax_postbath_mellow_2f21a79c:
 translate french toadlax_postbath_mellow_241ed237:
 
     # tx "Cheers pal!"
-    tx "À plus l'ami !"
+    tx "À plus l'ami·e !"
 
 # game/dialogue_toadlax.rpy:173
 translate french toadlax_postbath_laxative_8f136be9:
@@ -568,7 +568,7 @@ translate french toadlax_postbath_laxative_b18a84a8:
 translate french toadlax_postbath_laxative_78d6bb74:
 
     # tx "'k. I need to research some more, but it can probably work..."
-    tx "Ok. Je dois faire plus de recherche, mais cela peut fonctionner..."
+    tx "Ok. Je dois faire plus de recherches, mais cela devrait pouvoir fonctionner..."
 
 # game/dialogue_toadlax.rpy:185
 translate french toadlax_postbath_laxative_e9decbbd:
@@ -586,7 +586,7 @@ translate french toadlax_postbath_laxative_159a5d23:
 translate french toadlax_postbath_laxative_e7f08a93:
 
     # tx "Probably not. But I'm just sick of everyone looking down on me because of my species."
-    tx "Probablement que non. Mais j'en ai marre que tout le monde me regarde de haut à cause de mon espèce."
+    tx "Probablement pas. Mais j'en ai marre que tout le monde me prenne de haut à cause de mon espèce."
 
 # game/dialogue_toadlax.rpy:188
 translate french toadlax_postbath_laxative_5c74bae6:
@@ -604,7 +604,7 @@ translate french toadlax_postbath_laxative_31f692bc:
 translate french toadlax_postbath_laxative_e44e1b0a:
 
     # pw "I hope she doesn't get into too much trouble."
-    pw "J'espère qu'elle ne va pas se mettre dans de trop gros problèmes."
+    pw "J'espère qu'elle ne va pas se créer de trop gros problèmes."
 
 translate french strings:
 
@@ -614,7 +614,7 @@ translate french strings:
 
     # game/dialogue_toadlax.rpy:116
     old "What about?"
-    new "Qu'est-ce donc ?"
+    new "A propos de quoi ?"
 
     # game/dialogue_toadlax.rpy:177
     old "The bark."

@@ -28,13 +28,13 @@ translate french taddeus_intro_2a5ac269:
 translate french taddeus_intro_23865495:
 
     # ts "Well, I suppose a good soak will be relaxing, in any case."
-    ts "Bien, je suppose qu'un bain peut être relaxant dans tous les cas."
+    ts "Et bien, je suppose qu'un bain sera relaxant dans tous les cas."
 
 # game/dialogue_taddeus.rpy:15
 translate french taddeus_intro_2414974f:
 
     # p "Yes, our emotional bath-bombs are a treasured family secret."
-    p "Oui, nos bombes de bain émotionnelles sont un trésor et un secret familial."
+    p "Oui, nos bombes de bain émotionnelles sont un précieux secret familial."
 
 # game/dialogue_taddeus.rpy:16
 translate french taddeus_intro_4cef2002:
@@ -82,7 +82,7 @@ translate french taddeus_intro_a2fafc15:
 translate french taddeus_intro_b97e9a6e:
 
     # ts "I am looking for some peace from the swarm of fans that seem to hunt me."
-    ts "Je suis à la recherche de calme, loin de l'étang des fans qui me hantent."
+    ts "Je suis à la recherche de calme, loin de la nuée de fans qui me hante."
 
 # game/dialogue_taddeus.rpy:24
 translate french taddeus_intro_6bd62a02:
@@ -112,31 +112,31 @@ translate french taddeus_intro_4d0c1201:
 translate french taddeus_intro_db9bd11d:
 
     # ts "Yes, it is one of my better known works, with the One-Thousand Palace and the modular Underfloating complexes..."
-    ts "Oui, c'est l'une de mes oeuvres les plus connues, avec le Palais des Mille et son complexe modulaire flottant..."
+    ts "Oui, c'est l'une de mes oeuvres les plus connues, avec le Palais des Mille et les complexes modulaires Sousflottant..."
 
 # game/dialogue_taddeus.rpy:31
 translate french taddeus_intro_379f874e:
 
     # ts "How refreshing to meet someone who have barely heard of me!"
-    ts "Que c'est rafraichissant de rencontrer quelqu'un qui me connait à peine !"
+    ts "Que c'est rafraîchissant de rencontrer quelqu'un qui me connaît à peine !"
 
 # game/dialogue_taddeus.rpy:33
 translate french taddeus_intro_e1f4a4f2:
 
     # p "Of course. Making a fuss when we recognise a famous or infamous client is simply against our policy."
-    p "Faire de l'esclandre quand nous reconnaissons un client, connu ou non, n'est simplement pas dans nos habitudes."
+    p "Faire un esclandre quand nous reconnaissons un client, célèbre ou non, n'est simplement pas dans nos habitudes."
 
 # game/dialogue_taddeus.rpy:34
 translate french taddeus_intro_9e8ea70b:
 
     # p "We welcome all spirit-frogs equally, and with respect for their privacy."
-    p "Nous accueillons tous les esprits-grenouilles de façon égale, et nous respectons leur vie privée"
+    p "Nous accueillons tous les esprits-grenouilles de façon égale, et nous respectons leur vie privée."
 
 # game/dialogue_taddeus.rpy:35
 translate french taddeus_intro_926dd4a4:
 
     # ts "Much appreciated... Much appreciated..."
-    ts "C'est très appréciable... très appréciable..."
+    ts "C'est très appréciable... Très appréciable..."
 
 # game/dialogue_taddeus.rpy:36
 translate french taddeus_intro_53a675c0:
@@ -166,19 +166,19 @@ translate french taddeus_intro_fb430960:
 translate french taddeus_intro_f39d1d66:
 
     # ts "How is one supposed to relax in that situation?!?"
-    ts "Comment je suis supposé me relaxer dans cette situation ?!"
+    ts "Comment suis-je supposé me relaxer dans cette situation ?!"
 
 # game/dialogue_taddeus.rpy:41
 translate french taddeus_intro_606523d5:
 
     # ts "I cannot even indulge in some trippy tadpoles to relax, because I am afraid word of it will get back to my homeforest."
-    ts "Je ne peux même pas me prendre quelques têtards hallucinogènes, j'aurais trop peur des rumeurs dans ma forêt natale."
+    ts "Je ne peux même pas me faire plaisir avec quelques têtards hallucinogènes, j'aurais trop peur des rumeurs dans ma forêt natale."
 
 # game/dialogue_taddeus.rpy:42
 translate french taddeus_intro_720c9044:
 
     # ts "The little bits are a treat, but they really aren't the done thing where I'm from..."
-    ts "C'est déliceux mais on ne fait pas ça là d'où je viens..."
+    ts "C'est délicieux mais ça ne se fait vraiment pas, là d'où je viens..."
 
 # game/dialogue_taddeus.rpy:43
 translate french taddeus_intro_397bd822:
@@ -196,7 +196,7 @@ translate french taddeus_intro_d7d52124:
 translate french taddeus_intro_96a3fdd7:
 
     # ts "If at least I still enjoyed my work..."
-    ts "Et si seulement, j'aimais encore mon travail..."
+    ts "Si seulement j'aimais encore mon travail..."
 
 # game/dialogue_taddeus.rpy:46
 translate french taddeus_intro_31bf279a:
@@ -214,13 +214,13 @@ translate french taddeus_intro_603db3f7:
 translate french taddeus_intro_3d7e363e:
 
     # ts "I had this philosophy you know."
-    ts "J'ai cette philosophie, vous savez."
+    ts "J'avais cette philosophie, vous savez."
 
 # game/dialogue_taddeus.rpy:49
 translate french taddeus_intro_62dc0aed:
 
     # ts "Buildings should enable collaborative work while protecting individuals."
-    ts "L'architecture doit permettre le travail collectif, tout en protégeant les indivudus."
+    ts "L'architecture doit permettre le travail collectif, tout en protégeant les individus."
 
 # game/dialogue_taddeus.rpy:50
 translate french taddeus_intro_2fca4b93:
@@ -238,13 +238,13 @@ translate french taddeus_intro_a34d903a:
 translate french taddeus_intro_93c6d148:
 
     # ts "I can design spaces to foster collaboration, but I cannot force people to communicate or care for each other!"
-    ts "Je peux designer des espaces pour favoriser la collaboration mais je ne peux forcer les gens à communiquer ou à s'entre-aider."
+    ts "Je peux designer des espaces pour favoriser la collaboration, mais je ne peux forcer les gens à communiquer ou à s'entre-aider."
 
 # game/dialogue_taddeus.rpy:53
 translate french taddeus_intro_f0c4fa31:
 
     # ts "Do not get me wrong, I am very happy about people liking my work. But all this hero-worshipping is ridiculous! And tedious!"
-    ts "Et ne me faites pas dire ce que je n'ai pas dit, je suis heureux que les gens apprécient mon travail. Mais tout ce culte du héros est ridicule. Et fastidieux."
+    ts "Et ne me faites pas dire ce que je n'ai pas dit, je suis très heureux que les gens apprécient mon travail. Mais tout ce culte du héros est ridicule ! Et fastidieux !"
 
 # game/dialogue_taddeus.rpy:54
 translate french taddeus_intro_f9e9fb33:
@@ -280,7 +280,7 @@ translate french taddeus_intro_61a08f5a:
 translate french taddeus_intro_ca480998:
 
     # ts "Maybe... I hope so..."
-    ts "Peut-être... je l'espère en tout cas..."
+    ts "Peut-être... Je l'espère en tout cas..."
 
 # game/dialogue_taddeus.rpy:60
 translate french taddeus_intro_58208ca8:
@@ -298,7 +298,7 @@ translate french taddeus_intro_9da61d8d:
 translate french taddeus_intro_f291e92c:
 
     # ts "Thank you kindly."
-    ts "Merci beaucoup !"
+    ts "Un grand merci."
 
 # game/dialogue_taddeus.rpy:96
 translate french taddeus_postbath_revenge_c2d59a7c:
@@ -310,19 +310,19 @@ translate french taddeus_postbath_revenge_c2d59a7c:
 translate french taddeus_postbath_revenge_39514656:
 
     # ts "Those fools refuse to stop pestering me and respect my privacy, no matter how many times I ask them to leave alone."
-    ts "Ces idiots refusent de cesser de me harceler et de respecter ma vie privée, peu importe le nombre de fois où je leur ai demandé de me laisser tranquille."
+    ts "Ces idiots refusent de cesser de me harceler et de respecter ma vie privée, peu importe combien de fois je leur demande de me laisser tranquille."
 
 # game/dialogue_taddeus.rpy:98
 translate french taddeus_postbath_revenge_effa5f4f:
 
     # ts "Well, the time for letting them walk all over me is over!"
-    ts "Bien, le temps où je les laissais me marcher dessus est terminé !"
+    ts "Bien, le temps où je les laissais me marcher dessus est passé !"
 
 # game/dialogue_taddeus.rpy:99
 translate french taddeus_postbath_revenge_ad5a8161:
 
     # ts "I will have my revenge, and no one will ever dare bother me again!"
-    ts "J'aurai ma revanche, et plus personne ne viendra m'enquiquiner à nouveau !"
+    ts "J'aurai ma revanche, et plus personne n'osera jamais m'importuner de la sorte !"
 
 # game/dialogue_taddeus.rpy:102
 translate french taddeus_postbath_revenge_1d16b942:
@@ -334,19 +334,19 @@ translate french taddeus_postbath_revenge_1d16b942:
 translate french taddeus_postbath_revenge_fd7c497b:
 
     # ts "Worry not, friend!"
-    ts "Ne t'inquiète pas, l'ami. "
+    ts "Ne vous inquiétez pas, ma chère. "
 
 # game/dialogue_taddeus.rpy:104
 translate french taddeus_postbath_revenge_a13faeaa:
 
     # ts "I cannot go into details, for I would not want to ruin the surprise."
-    ts "Je n'irai pas dans les détails, je ne voudrais pas ruiner la surprise."
+    ts "Je n'entrerai pas dans les détails, je ne voudrais pas ruiner la surprise."
 
 # game/dialogue_taddeus.rpy:105
 translate french taddeus_postbath_revenge_b5a9e998:
 
     # ts "But it will be grandiose, one of my chef-d'oeuvre!"
-    ts "Mais ça va être grandiose, un de mes chefs d'oeuvre !"
+    ts "Mais ça sera grandiose, un de mes chefs d'oeuvre !"
 
 # game/dialogue_taddeus.rpy:106
 translate french taddeus_postbath_revenge_3ffd3a7f:
@@ -358,25 +358,25 @@ translate french taddeus_postbath_revenge_3ffd3a7f:
 translate french taddeus_postbath_revenge_141fbbd1:
 
     # pw "He's gone already... Oh dear!"
-    pw "Il est déjà parti dans son idée... olalala..."
+    pw "Il est déjà parti... Oh la la !"
 
 # game/dialogue_taddeus.rpy:111
 translate french taddeus_postbath_revenge_00360862:
 
     # p "Sounds good. Go get them!"
-    p "Ça me semble une bonne idée ! Faites-vous plaisir !"
+    p "Ça me semble être une bonne idée. Faites-vous plaisir !"
 
 # game/dialogue_taddeus.rpy:112
 translate french taddeus_postbath_revenge_10c77d2f:
 
     # ts "Thank you for your support!"
-    ts "Merci pour votre support !"
+    ts "Merci pour votre soutien !"
 
 # game/dialogue_taddeus.rpy:113
 translate french taddeus_postbath_revenge_afc9c5bf:
 
     # ts "If you ever want to come to one of my unveiling events, you will be most welcome."
-    ts "Si vous voulez venir à l'un de mes événements, vous êtes plus que la bienvenue."
+    ts "Si vous voulez venir à l'un de mes inaugurations, vous êtes plus que la bienvenue."
 
 # game/dialogue_taddeus.rpy:114
 translate french taddeus_postbath_revenge_f0d9ffa6:
@@ -388,7 +388,7 @@ translate french taddeus_postbath_revenge_f0d9ffa6:
 translate french taddeus_postbath_revenge_5873cabc:
 
     # ts "Well, except the next one. No, that would be terribly ungrateful of me."
-    ts "Enfin, sauf le prochain. Non, ça serait terriblement mesquin de ma part."
+    ts "Enfin, sauf la prochaine. Non, ça serait terriblement ingrat de ma part."
 
 # game/dialogue_taddeus.rpy:116
 translate french taddeus_postbath_revenge_35134613:
@@ -406,7 +406,7 @@ translate french taddeus_postbath_revenge_dccdf403:
 translate french taddeus_postbath_revenge_6e8fc43a:
 
     # p "We would be honoured by your continued patronage."
-    p "Nous serons honorés de vous recevoir à nouveau."
+    p "Nous serons honoré·es de vous recevoir à nouveau."
 
 # game/dialogue_taddeus.rpy:119
 translate french taddeus_postbath_revenge_95b02d87:
@@ -430,7 +430,7 @@ translate french taddeus_postbath_teafarm_61e93d8e:
 translate french taddeus_postbath_teafarm_47127129:
 
     # ts "It was most refreshing!"
-    ts "Ça a été très rafraichissant !"
+    ts "Il a été très rafraîchissant !"
 
 # game/dialogue_taddeus.rpy:136
 translate french taddeus_postbath_teafarm_8e054aad:
@@ -454,7 +454,7 @@ translate french taddeus_postbath_teafarm_745209aa:
 translate french taddeus_postbath_teafarm_20cb6877:
 
     # ts "Yes, a sign that it's high time I left the hubbub of architect life behind me."
-    ts "Oui, le signe qu'il est grand temps que je quitte le monde de l'architecture et que je le laisse derrière moi."
+    ts "Oui, le signe qu'il est grand temps que je laisse le monde de l'architecture derrière moi."
 
 # game/dialogue_taddeus.rpy:140
 translate french taddeus_postbath_teafarm_1a5f932c:
@@ -472,19 +472,19 @@ translate french taddeus_postbath_teafarm_3f0184f7:
 translate french taddeus_postbath_teafarm_0e45e85c:
 
     # ts "I do not think luck has much to do with it."
-    ts "Je ne pense pas que la chance à quoique ce soit à voir avec tout ça."
+    ts "Je ne pense pas que la chance ait quoique ce soit à voir avec tout ça."
 
 # game/dialogue_taddeus.rpy:145
 translate french taddeus_postbath_teafarm_fcacb145:
 
     # ts "Hard work, skill, and experience, more likely."
-    ts "Travailler dur, du talent, de l'expérience, tout au plus."
+    ts "Travailler dur, du talent, de l'expérience, plutôt."
 
 # game/dialogue_taddeus.rpy:146
 translate french taddeus_postbath_teafarm_48b36805:
 
     # ts "But your well-wishes are appreciated all the same!"
-    ts "Mais j'apprécie quand même vos voeux pour moi."
+    ts "Mais j'apprécie quand même vos vœux pour moi."
 
 # game/dialogue_taddeus.rpy:148
 translate french taddeus_postbath_teafarm_81356ff1:
@@ -496,31 +496,31 @@ translate french taddeus_postbath_teafarm_81356ff1:
 translate french taddeus_postbath_teafarm_9e5f8054:
 
     # ts "Well... I should probably wait for my cousin's answer, to ensure his offer is still relevant."
-    ts "Eh bien... je vais attendre la répondre de ma cousine, pour être sûr que son offre tient toujours."
+    ts "Eh bien... Je vais attendre la répondre de ma cousine, pour être sûr que son offre tient toujours."
 
 # game/dialogue_taddeus.rpy:150
 translate french taddeus_postbath_teafarm_bb354749:
 
     # ts "But I will want to take advantage of the portals that have been set up for the festival."
-    ts "Mais j'aimerai profiter des portails du festival pendant qu'ils sont opérationnels."
+    ts "Mais j'aimerais profiter des portails du festival pendant qu'ils sont opérationnels."
 
 # game/dialogue_taddeus.rpy:151
 translate french taddeus_postbath_teafarm_19a610fa:
 
     # p "I suppose there's no sense in dawdling if you have made your decision."
-    p "Je suppose que vous n'allez pas revenir sur votre décision de partir."
+    p "Je suppose que ça ne sert à rien de traîner si vous avez pris votre décision."
 
 # game/dialogue_taddeus.rpy:152
 translate french taddeus_postbath_teafarm_9cb65a9a:
 
     # ts "Farewell, spirit-witch of the energising bath-bombs."
-    ts "Adieu, esprit des bombes de bain énergissantes !"
+    ts "Adieu, esprit-sorcière des bombes de bain énergisantes."
 
 # game/dialogue_taddeus.rpy:153
 translate french taddeus_postbath_teafarm_8b55eb81:
 
     # pw "Wow, I like that new title. Very fancy!"
-    pw "Wow, j'aime cette dénomination. Super cool !"
+    pw "Wow, j'aime cette nouvelle dénomination. Super cool !"
 
 # game/dialogue_taddeus.rpy:154
 translate french taddeus_postbath_teafarm_1297425f:
@@ -556,7 +556,7 @@ translate french taddeus_postbath_priceoffame_54e8197b:
 translate french taddeus_postbath_priceoffame_fb03f0d8:
 
     # ts "...underwhelmed. Yes, underwhelmed, that is the perfect word!"
-    ts "Dépité. Oui, dépité, c'est le bon mot."
+    ts "Dépité. Oui, dépité, c'est le terme exact !"
 
 # game/dialogue_taddeus.rpy:177
 translate french taddeus_postbath_priceoffame_639f4ba6:
@@ -586,7 +586,7 @@ translate french taddeus_postbath_priceoffame_dd887f92:
 translate french taddeus_postbath_priceoffame_bd846a49:
 
     # ts "Oh no, no, the bath was perfectly fine."
-    ts "Oh non non, le bain était parfait."
+    ts "Oh non, non, le bain était parfait."
 
 # game/dialogue_taddeus.rpy:182
 translate french taddeus_postbath_priceoffame_a4e4214c:
@@ -610,7 +610,7 @@ translate french taddeus_postbath_priceoffame_061e5381:
 translate french taddeus_postbath_priceoffame_e6fb5d09:
 
     # ts "My way forward is clear, but I do not like it much."
-    ts "Mon chemin est clair mais je ne l'aime pas."
+    ts "Mon chemin est clair mais je ne l'aime pas particulièrement."
 
 # game/dialogue_taddeus.rpy:186
 translate french taddeus_postbath_priceoffame_fd5f55ba:
@@ -634,7 +634,7 @@ translate french taddeus_postbath_priceoffame_b6bd1ce8:
 translate french taddeus_postbath_priceoffame_72c40532:
 
     # ts "Minor drawbacks are to be expected, are they not?"
-    ts "Des problèmes mineurs sont toujours à prévoir, n'est-ce pas ?"
+    ts "Des désagréments mineurs sont toujours à prévoir, n'est-ce pas ?"
 
 # game/dialogue_taddeus.rpy:190
 translate french taddeus_postbath_priceoffame_8ff1a335:
@@ -652,13 +652,13 @@ translate french taddeus_postbath_priceoffame_191da23e:
 translate french taddeus_postbath_priceoffame_17d7e2a8:
 
     # ts "I had best be on my way, before words spread that I am your patron."
-    ts "Je devrais partir, avant que l'on pense que je suis votre patron."
+    ts "Je devrais partir, avant que la nouvelle que je suis votre client ne se répande."
 
 # game/dialogue_taddeus.rpy:195
 translate french taddeus_postbath_priceoffame_7162d637:
 
     # ts "I would hate for my fans to descend upon your establishment like a locust swarm..."
-    ts "Je détesterais que mes fans s'abattent sur votre établissement comme un essaim de sauterelles..."
+    ts "Je détesterais que mes fans s'abattent sur votre établissement comme une nuée de sauterelles..."
 
 # game/dialogue_taddeus.rpy:196
 translate french taddeus_postbath_priceoffame_f765527d:
@@ -670,7 +670,7 @@ translate french taddeus_postbath_priceoffame_f765527d:
 translate french taddeus_postbath_priceoffame_460ac7ea:
 
     # pw "What a dramatic frog!"
-    pw "Quelle grenouille dramatique que voilà !"
+    pw "Quelle grenouille dramatique !"
 
 # game/dialogue_taddeus.rpy:198
 translate french taddeus_postbath_priceoffame_2505791a:
@@ -682,13 +682,13 @@ translate french taddeus_postbath_priceoffame_2505791a:
 translate french taddeus_postbath_priceoffame_4a14d34c:
 
     # p "You're welcome. Take care, and don't hesitate to come back if things aren't looking up."
-    p "De rien. Prenez soin de vous et n'hésitez pas à revenir si les choses ne vont pas."
+    p "Je vous en prie. Prenez soin de vous et n'hésitez pas à revenir si les choses ne vont pas."
 
 # game/dialogue_taddeus.rpy:203
 translate french taddeus_postbath_priceoffame_6a490e46:
 
     # p "You can still decide whether that price is reasonable or not."
-    p "Vous pouvez toujours décider si le prix à payer est raisonnable ou non."
+    p "Vous pouvez toujours décider si ce prix à payer est raisonnable ou non."
 
 # game/dialogue_taddeus.rpy:204
 translate french taddeus_postbath_priceoffame_f9721cd5:
@@ -700,7 +700,7 @@ translate french taddeus_postbath_priceoffame_f9721cd5:
 translate french taddeus_postbath_priceoffame_e8491582:
 
     # p "Well, then you can think about changing your life around?"
-    p "Eh bien, vous pouvez réfléchir à changer de vie ?"
+    p "Eh bien, vous pourriez réfléchir à changer de vie ?"
 
 # game/dialogue_taddeus.rpy:206
 translate french taddeus_postbath_priceoffame_218e7987:
@@ -730,7 +730,7 @@ translate french taddeus_postbath_priceoffame_7229b40b:
 translate french taddeus_postbath_priceoffame_130a66f1:
 
     # p "You will always be welcome."
-    p "Vous serez toujours le bienvenue."
+    p "Vous serez toujours le bienvenu."
 
 # game/dialogue_taddeus.rpy:211
 translate french taddeus_postbath_priceoffame_7d70f49e:
@@ -746,7 +746,7 @@ translate french strings:
 
     # game/dialogue_taddeus.rpy:10
     old "Yes, our emotional bath-bombs are a treasured family secret."
-    new "Oui, nos bombes de bain émotionnelles sont un trésor et un secret familial."
+    new "Oui, nos bombes de bain émotionnelles sont un précieux secret familial."
 
     # game/dialogue_taddeus.rpy:27
     old "Hum, are you the toad who built the Aquadiva Opera?"
@@ -754,7 +754,7 @@ translate french strings:
 
     # game/dialogue_taddeus.rpy:27
     old "Of course. Making a fuss when we recognise a famous or infamous client is simply against our policy."
-    new "Faire de l'esclandre quand nous reconnaissons un client connu ou non n'est simplement pas dans notre politique."
+    new "Faire un esclandre quand nous reconnaissons un client, célèbre ou non, n'est simplement pas dans nos habitudes."
 
     # game/dialogue_taddeus.rpy:100
     old "Revenge?"
@@ -762,7 +762,7 @@ translate french strings:
 
     # game/dialogue_taddeus.rpy:100
     old "Sounds good. Go get them!"
-    new "Super ! Attrapez-les !"
+    new "Ça me semble être une bonne idée. Faites-vous plaisir !"
 
     # game/dialogue_taddeus.rpy:141
     old "I wish you luck on the tea farm then."
@@ -786,5 +786,4 @@ translate french strings:
 
     # game/dialogue_taddeus.rpy:191
     old "You can still decide whether that price is reasonable or not."
-    new "Vous pouvez toujours décider si le prix à payer est raisonnable ou non."
-
+    new "Vous pouvez toujours décider si ce prix à payer est raisonnable ou non."

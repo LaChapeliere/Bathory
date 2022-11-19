@@ -190,7 +190,7 @@ translate french fff_intro_9e3694cd:
 translate french fff_intro_a6494c9e:
 
     # pw "I don't know what game they're playing, but it sounds very confusing."
-    pw "Je ne sais pas quel jeu iels jouent mais iels ont l'air plutôt confus·e."
+    pw "Je ne sais pas quel jeu iels jouent mais iels ont l'air plutôt confus·es."
 
 # game/dialogue_fff.rpy:66
 translate french fff_intro_12c857af:
@@ -286,7 +286,7 @@ translate french fff_intro_bbd70c2f:
 translate french fff_intro_cc4b61e3:
 
     # p "I will ask you to be calm and quiet during this process, we don't want to misplace ingredients in here. *wink"
-    p "Je vais vous demander d'être calme et silencieux pendant le processus. Je ne voudrais pas me tromper d'ingrédients. *clin d'oeil*"
+    p "Je vais vous demander d'être calme et silencieux pendant le processus. Je ne voudrais pas me tromper d'ingrédients. *clin d’œil*"
 
 # game/dialogue_fff.rpy:91
 translate french fff_intro_d29796a2:
@@ -358,7 +358,7 @@ translate french fff_postbath_overpowered_4d65409c:
 translate french fff_postbath_overpowered_52b44424:
 
     # fweyw "We'll help the entire world, don't forget we're a great spy-detective-adventurer-hero, Froggie"
-    fweyw "Nous allons aider le monde entier ! N'oublie pas que nous sommes le grand espion-détective-aventurieur-héros, Froggie !"
+    fweyw "Nous allons aider le monde entier ! N'oublie pas que nous sommes le grand espion-détective-aventurier-héros, Froggie !"
 
 # game/dialogue_fff.rpy:151
 translate french fff_postbath_overpowered_1408693c:
@@ -544,7 +544,7 @@ translate french fff_postbath_anger_bc2fb317:
 translate french fff_postbath_anger_6778c303:
 
     # fie "We LOST precious time! I swear I'll kick every organizer."
-    fie "Nous avons PERDU un temps précieux. Je jure de faire la bagarre avec tous les organisateurtrices !"
+    fie "Nous avons PERDU un temps précieux. Je jure de faire la bagarre avec tous les organisateur·rices !"
 
 # game/dialogue_fff.rpy:224
 translate french fff_postbath_anger_ed0eefa9:
@@ -568,7 +568,7 @@ translate french fff_postbath_anger_ef774ef3:
 translate french fff_postbath_anger_7347950f:
 
     # pw "*sigh* Have a nice festival..."
-    pw "*soupire* Ayez un bon festival..."
+    pw "*soupire* Passez un bon festival..."
 
 # game/dialogue_fff.rpy:242
 translate french fff_postbath_tired_cb1465a5:

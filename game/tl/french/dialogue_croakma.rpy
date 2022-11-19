@@ -196,7 +196,7 @@ translate french croakma_intro_576047f9:
 translate french croakma_intro_7702d477:
 
     # pw "I'm not sure it's healthy to resent your children that much..."
-    pw "Je ne suis pas sûr·e que c'est sain d'avoir autant de resentiment envers ses enfants comme ça..."
+    pw "Je ne suis pas sûr·e que c'est sain d'avoir autant de ressentiment envers ses enfants comme ça..."
 
 # game/dialogue_croakma.rpy:52
 translate french croakma_intro_ecbe9a8c:
@@ -220,7 +220,7 @@ translate french croakma_intro_27b3bbb6:
 translate french croakma_intro_2179398e:
 
     # pw "I could discreetly add them to my reserve of trippy tadpoles..."
-    pw "Je pourrais discrétement les ajouter à ma réserve de têtards hallucinogènes..."
+    pw "Je pourrais discrètement les ajouter à ma réserve de têtards hallucinogènes..."
 
 # game/dialogue_croakma.rpy:62
 translate french croakma_intro_2877622f:
@@ -388,13 +388,13 @@ translate french croakma_postbath_mildlyupset_8dd0cffc:
 translate french croakma_postbath_mildlyupset_c5ad68ff:
 
     # ca "Still, I didn't expect you to do that."
-    ca "Toujours est-il, que je ne m'attendais pas à ce que vous fassiez ça."
+    ca "Toujours est-il, je ne m'attendais pas à ce que vous fassiez ça."
 
 # game/dialogue_croakma.rpy:133
 translate french croakma_postbath_mildlyupset_4b4b2f65:
 
     # ca "What did you do with them?"
-    ca "Qu'allez-vous faire avec eux ?"
+    ca "Qu'est-ce que vous en avez fait ?"
 
 # game/dialogue_croakma.rpy:134
 translate french croakma_postbath_mildlyupset_7a08b4b4:
@@ -406,19 +406,19 @@ translate french croakma_postbath_mildlyupset_7a08b4b4:
 translate french croakma_postbath_mildlyupset_0c7cc6fd:
 
     # ca "Not a total waste then, if you can make decent snacks out of them..."
-    ca "Pas un gâchis total alors. Si vous pouvez en faire de la nourriture décentes avec..."
+    ca "Pas un gâchis total alors. Si vous pouvez en faire des gourmandises décentes..."
 
 # game/dialogue_croakma.rpy:136
 translate french croakma_postbath_mildlyupset_5e582fc5:
 
     # ca "I guess my days just lightened up."
-    ca "Je suppose que mes journées se sont libérées."
+    ca "Je suppose que mes journées viennent juste de s'alléger."
 
 # game/dialogue_croakma.rpy:137
 translate french croakma_postbath_mildlyupset_dbae7146:
 
     # ca "Yay..."
-    ca "Ouai..."
+    ca "Youpi..."
 
 # game/dialogue_croakma.rpy:138
 translate french croakma_postbath_mildlyupset_33e3bfad:
@@ -454,7 +454,7 @@ translate french croakma_postbath_thankyou_8fc53c10:
 translate french croakma_postbath_thankyou_7cb02fbf:
 
     # ca "Thank you for keeping an eye on them!"
-    ca "Merci de les avoir gardé à l'oeil."
+    ca "Merci de les avoir gardé à l’œil."
 
 # game/dialogue_croakma.rpy:163
 translate french croakma_postbath_thankyou_e815a9f1:

@@ -18,7 +18,7 @@ translate french strings:
 
     # game/script.rpy:41
     old "Ginger bark"
-    new "Ecorce de gingembre"
+    new "Écorce de gingembre"
 
     # game/script.rpy:41
     old "Zap and zing, straight to their veins, kind of nice"

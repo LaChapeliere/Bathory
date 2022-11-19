@@ -16,8 +16,8 @@ translate french froxune_intro_0fc9380f:
 translate french froxune_intro_289f7998:
 
     # p "The festival is famous among the spirits, even non frog ones. But we are a small place, and only few people know about us, you can relax about the crowd."
-    p "Le festival est connu parmi les esprits, pas seulement que chez les grenouilles."
-    p "Mais c'est un petit endroit et seulement quelques personnes connaissent cet endroit pour se reposer de la foule."
+    p "Le festival est connu parmi les esprits, pas seulement chez les grenouilles."
+    p "Mais nos bains sont modestes et seules quelques personnes nous connaissent, vous n'avez pas à vous inquiéter de la foule."
 
 # game/dialogue_froxune.rpy:10
 translate french froxune_intro_fc91e24e:
@@ -29,19 +29,19 @@ translate french froxune_intro_fc91e24e:
 translate french froxune_intro_5e20e5cf:
 
     # p "What brings you to the festival?"
-    p "Qu'est-ce que vous amène pour le festival ?"
+    p "Qu'est-ce que vous amène au festival ?"
 
 # game/dialogue_froxune.rpy:12
 translate french froxune_intro_edf150e9:
 
     # fe "Well, I'm a voyager you see. I travel from place to place, to learn more about frogs and their ways."
-    fe "Eh bien, je suis un voyageur, voyez-vous. Je voyage d'endroit en endroit, pour en apprendre plus sur les grenouilles et leurs façons de vivre."
+    fe "Eh bien, je suis un·e voyageur·euse, voyez-vous. Je voyage d'endroit en endroit, pour en apprendre plus sur les grenouilles et leurs façons de vivre."
 
 # game/dialogue_froxune.rpy:13
 translate french froxune_intro_8ca058a8:
 
     # fe "I mean, I mean, I mean, I know the ways of my lake spirit people, but not those of swamp frogs."
-    fe "Je veux dire... je veux dire... je veux... je connais les coutumes de mon peuple, ceux du lac mais pas celles des grenouilles des marais."
+    fe "Je veux dire... je veux dire... je veux... je connais les coutumes de mon peuple, les grenouilles du lac, mais pas celles des grenouilles des marais."
 
 # game/dialogue_froxune.rpy:16
 translate french froxune_intro_a426e424:
@@ -65,13 +65,13 @@ translate french froxune_intro_3f4c47e8:
 translate french froxune_intro_ea05fdbb:
 
     # fe "Anyway, do you have maybe advice or something for the festival? I mean, hum, it's my first time around, I don't want to stand out."
-    fe "Bref, vous avez des conseils ou quelque chose pour le festival ? Je veux dire, hum, c'est ma première fois ici, je ne veux pas être à la marge."
+    fe "Bref, vous avez des conseils pour le festival ? Je veux dire, hum, c'est ma première fois ici, je ne veux pas me faire remarquer."
 
 # game/dialogue_froxune.rpy:21
 translate french froxune_intro_ed2d8a3a:
 
     # p "My advice is to do what makes you comfortable, but to try and leave some of your masks aside sometimes to let people know you truly."
-    p "Mon conseil serait de faire ce qui vous semble ok pour vous, et d'essayer de poser votre masque de côté pour que les gens vous connaissent mieux."
+    p "Mon conseil serait de faire ce qui vous semble bien pour vous, et d'essayer de poser votre masque de côté pour que les gens vous connaissent mieux."
 
 # game/dialogue_froxune.rpy:22
 translate french froxune_intro_4dd3ec4f:
@@ -107,19 +107,19 @@ translate french froxune_intro_d393317c:
 translate french froxune_intro_5cb9d343:
 
     # fe "I'll welcome your explanations, with pleasure!"
-    fe "Oui, s'il vous plaît, avec plaisir !"
+    fe "Oui, s'il-vous-plaît, avec plaisir !"
 
 # game/dialogue_froxune.rpy:31
 translate french froxune_intro_e23f6043:
 
     # fe "I'm passionate about spirits, mostly frog ones, but I haven't had the chance to come in and see y{cps=*0.3}...{/cps} {cps=*3}See, see, see this place.{/cps}"
-    fe "Je suis passionné d'esprit, surtout des grenouilles, mais je n'avais jamais la chance de rentrer et de te {cps=*0.3}...{/cps} {cps=*3}de voir, voir, voir, cet endroit. {/cps}"
+    fe "Je suis passionné·e d'esprit, surtout des grenouilles, mais je n'avais jamais eu la chance de venir ici et de te{cps=*0.3}...{/cps} {cps=*3}de voir, voir, voir, cet endroit.{/cps}"
 
 # game/dialogue_froxune.rpy:32
 translate french froxune_intro_dec39836:
 
     # p "As you know, we love a lot of things, but here we selected ingredients that have an influence on your emotions."
-    p "Comme vous le savez, nous aimons plusieurs choses. Mais ici, nous ne sélectionnons que des ingrédients qui influencent les émotions."
+    p "Comme vous le savez, nous aimons beaucoup de choses. Mais ici, nous ne sélectionnons que des ingrédients qui influencent les émotions."
 
 # game/dialogue_froxune.rpy:33
 translate french froxune_intro_6bf2de30:
@@ -131,7 +131,7 @@ translate french froxune_intro_6bf2de30:
 translate french froxune_intro_5ec6041c:
 
     # fe "Eeeeek! {w=1.0}Hm I mean, I mean, I mean, sounds lovely of course!"
-    fe "Beuuurk ! {w=1.0} Euh ! Je veux dire, je veux dire, ça a l'air délicieux, bien sûr !"
+    fe "Beuuurk ! {w=1.0}Euh ! Je veux dire, je veux dire, ça a l'air fantastique, bien sûr !"
 
 # game/dialogue_froxune.rpy:35
 translate french froxune_intro_b53aa4fe:
@@ -149,31 +149,31 @@ translate french froxune_intro_4c4674da:
 translate french froxune_intro_10f06661:
 
     # pw "I think I know them..."
-    pw "Je pense que je lae connais"
+    pw "Je pense que je lae connais..."
 
 # game/dialogue_froxune.rpy:38
 translate french froxune_intro_87645740:
 
     # fe "Hum I, I, I hum I mean you don't look like a frog that could do such things."
-    fe "Euh, je... je veux dire que vous n'avez pas l'air d'être une grenouille qui puissent faire cela."
+    fe "Euh, je... je veux dire que vous n'avez pas l'air d'être une grenouille qui puisse faire cela."
 
 # game/dialogue_froxune.rpy:39
 translate french froxune_intro_041721bd:
 
     # p "It's my sister, we opened these baths together, she's really great at influencing people's emotions."
-    p "C'est ma soeur. Nous avons ouvert ces bains ensembles, elle est vraiment très forte pour influencer les émotions des gens."
+    p "C'est ma sœur, nous avons ouvert ces bains ensembles, elle est vraiment très forte pour influencer les émotions des gens."
 
 # game/dialogue_froxune.rpy:40
 translate french froxune_intro_a9df4ae0:
 
     # p "We decided to create this place to help every frog sort through their issues and thoughts while having a good soak."
-    p "Nous avons décidé de créer cet endroit pour aider les grenouilles à traverser leurs émotions et leurs pensées pendant qu'elles prennent un bon bain."
+    p "Nous avons décidé de créer cet endroit pour aider les grenouilles à faire le tri dans leurs émotions et leurs pensées pendant qu'elles prennent un bon bain."
 
 # game/dialogue_froxune.rpy:41
 translate french froxune_intro_b66cb88d:
 
     # fe "Oh okay, yeah you mentioned that... Hum, your sister, it's great to stay with our family sometimes."
-    fe "Ok, ok ! Ouai, vous avez mentionné... hum, votre soeur. C'est bien de rester en famille parfois."
+    fe "Ok, ok ! Ouais, vous aviez mentionné ça... Hum, votre sœur, c'est bien de rester en famille parfois."
 
 # game/dialogue_froxune.rpy:42
 translate french froxune_intro_d9d32079:
@@ -185,13 +185,13 @@ translate french froxune_intro_d9d32079:
 translate french froxune_intro_0ab40dac:
 
     # p "I'll make you something nice, you'll see! *wink*"
-    p "Je vais vous préparer quelque chose de sympa, vous verrez *clin d'oeil*"
+    p "Je vais vous préparer quelque chose de sympa, vous verrez ! *clin d'oeil*"
 
 # game/dialogue_froxune.rpy:47
 translate french froxune_intro_8b1521b7:
 
     # p "Here it is! Enjoy your time in this \"lovely\" bath."
-    p "Et voilà ! Profitez-bien de votre temps dans notre \"superbe\" bain"
+    p "Et voilà ! Profitez-bien de votre temps dans notre \"sympathique\" bain"
 
 # game/dialogue_froxune.rpy:77
 translate french froxune_postbath_dreams_82c94ee0:
@@ -209,7 +209,7 @@ translate french froxune_postbath_dreams_3f8b36ff:
 translate french froxune_postbath_dreams_ea9c7fd4:
 
     # fe "Yeah, but that was really something my friend!"
-    fe "Ouai, mais c'était quand même quelque chose, mon ami !"
+    fe "Ouais, mais c'était quand même quelque chose, mon ami !"
 
 # game/dialogue_froxune.rpy:80
 translate french froxune_postbath_dreams_389aba4e:
@@ -245,7 +245,7 @@ translate french froxune_postbath_dreams_6adeb977:
 translate french froxune_postbath_dreams_643881dc:
 
     # fe "Eheh, that means tomorrow will go great for sure."
-    fe "Eh eh ! Ça veut dire que demain, tout ira bien pour sûr !"
+    fe "Eh eh ! Ça veut dire que demain, tout ira bien, pour sûr !"
 
 # game/dialogue_froxune.rpy:95
 translate french froxune_postbath_dreams_d848e14d:
@@ -263,13 +263,13 @@ translate french froxune_postbath_dreams_42dd438a:
 translate french froxune_postbath_dreams_f61ab065:
 
     # fe "It's all thanks to you!"
-    fe "Et tout ça, grâce à toi !"
+    fe "Et tout ça, c'est grâce à toi !"
 
 # game/dialogue_froxune.rpy:98
 translate french froxune_postbath_dreams_73b19605:
 
     # p "Oh, I just gave you a little boost, my foxy friend! The rest is all yours!"
-    p "Oh, je t'ai simplement donné un petit boost, maon cher·ère oreilles poilus ! Le reste vient de toi !"
+    p "Oh, je t'ai simplement donné un petit boost, maon cher·ère ami·e vulpin·e ! Le reste vient de toi !"
 
 # game/dialogue_froxune.rpy:102
 translate french froxune_postbath_dreams_117d612f:
@@ -287,7 +287,7 @@ translate french froxune_postbath_dreams_444f4b11:
 translate french froxune_postbath_dreams_64efa7ed:
 
     # fe "Eh! That was not what I was going to say."
-    fe "Eh ! Ce n'est pas de ça dont je voulais parler !"
+    fe "Eh ! Ce n'est pas de ça que j'allais dire !"
 
 # game/dialogue_froxune.rpy:105
 translate french froxune_postbath_dreams_58d618c3:
@@ -299,7 +299,7 @@ translate french froxune_postbath_dreams_58d618c3:
 translate french froxune_postbath_dreams_1ee830a8:
 
     # fe "You've changed too, you know? You're much more lively."
-    fe "Tu as changé aussi, tu le sais ? Tu es bien plus vivant."
+    fe "Tu as changé aussi, tu sais ? Tu es bien plus vivant."
 
 # game/dialogue_froxune.rpy:107
 translate french froxune_postbath_dreams_7a969a2d:
@@ -323,7 +323,7 @@ translate french froxune_postbath_dreams_ae3e1c1e:
 translate french froxune_postbath_dreams_cee0e0f3:
 
     # fe "And I think this is the first time you helped me, and it lead us here."
-    fe "Et je pense que c'est la première fois que tu m'as aidé. Et ça nous mêne ici, maintenant."
+    fe "Et je pense que c'est la première fois que tu m'as aidé. Et ça nous mène ici, maintenant."
 
 # game/dialogue_froxune.rpy:111
 translate french froxune_postbath_dreams_627eecc5:
@@ -353,7 +353,7 @@ translate french froxune_postbath_dreams_7f55d8fb:
 translate french froxune_postbath_dreams_ff99b48b:
 
     # p "You're going to rock it, I'm sure!"
-    p "Je suis sûr que tu vas bien t'amuser !"
+    p "Je suis sûr que tu vas tout déchirer !"
 
 # game/dialogue_froxune.rpy:122
 translate french froxune_postbath_dreams_0c0b0a14:
@@ -365,7 +365,7 @@ translate french froxune_postbath_dreams_0c0b0a14:
 translate french froxune_postbath_confident_904023c5:
 
     # fe "That was comforting."
-    fe "C'était reconfortant."
+    fe "C'était réconfortant."
 
 # game/dialogue_froxune.rpy:136
 translate french froxune_postbath_confident_941c0458:
@@ -383,7 +383,7 @@ translate french froxune_postbath_confident_41ef091b:
 translate french froxune_postbath_confident_7ecb6f4c:
 
     # p "Was the bath great for you?"
-    p "Est-ce que le bain a été ok pour toi ?"
+    p "Est-ce que le bain a été agréable pour toi ?"
 
 # game/dialogue_froxune.rpy:139
 translate french froxune_postbath_confident_3bbdb0ba:
@@ -419,13 +419,13 @@ translate french froxune_postbath_confident_6c6fd6e7:
 translate french froxune_postbath_confident_fe70ee22:
 
     # fe "Be myself, yeah, but also stay under the radar."
-    fe "Être moi-même, ouai, mais surtout rester sous les radars."
+    fe "Être moi-même, ouais, mais surtout rester sous les radars."
 
 # game/dialogue_froxune.rpy:151
 translate french froxune_postbath_confident_f61735e5:
 
     # fe "I'll be a modest but blunt frog with fortune telling powers."
-    fe "Je serais une modeste grenouille aux pouvoirs de divinations émoussés."
+    fe "Je serais une grenouille avec des pouvoirs de divinations, modeste mais avec son franc-parler."
 
 # game/dialogue_froxune.rpy:152
 translate french froxune_postbath_confident_ccd7b6db:
@@ -443,25 +443,25 @@ translate french froxune_postbath_confident_732825d2:
 translate french froxune_postbath_confident_0f23b997:
 
     # fe "I'm not that good you know. Anyway, I'll stay true to myself."
-    fe "Je ne suis pas aussi talentueuxse que ça, tu sais. Mais ok, je vais rester vrai·e pour moi-même..."
+    fe "Je ne suis pas aussi talentueux·euse que ça, tu sais. Mais ok, je vais rester fidèle à moi-même..."
 
 # game/dialogue_froxune.rpy:155
 translate french froxune_postbath_confident_7093480d:
 
     # few "And to my dream."
-    few "Et pour mes rêves."
+    few "Et à mes rêves."
 
 # game/dialogue_froxune.rpy:156
 translate french froxune_postbath_confident_bb832bb0:
 
     # p "I'm sure it'll be alright! Cheer up!"
-    p "Je suis sûr que ça ira pour toi. Haut-les-coeurs !"
+    p "Je suis sûr que ça ira. Haut-les-cœurs !"
 
 # game/dialogue_froxune.rpy:157
 translate french froxune_postbath_confident_ed31368e:
 
     # fe "Yes yes, I'll cheer up after a nap."
-    fe "Oui, oui, je célébrerai après une sieste."
+    fe "Oui, oui, j'aurai meilleur moral après une sieste."
 
 # game/dialogue_froxune.rpy:158
 translate french froxune_postbath_confident_6533d96b:
@@ -503,7 +503,7 @@ translate french froxune_postbath_confident_3d284189:
 translate french froxune_postbath_depressed_d0441806:
 
     # few "Frogs have weird tendencies for their bath... I'll never be one of them..."
-    few "Les grenouilles ont vraiment des goûts étranges pour leurs bains... je n'en ferai jamais parti·e."
+    few "Les grenouilles ont vraiment des goûts étranges pour leurs bains... Je n'en ferai jamais parti·e."
 
 # game/dialogue_froxune.rpy:178
 translate french froxune_postbath_depressed_d07a6a07:
@@ -539,7 +539,7 @@ translate french froxune_postbath_depressed_26c7a352:
 translate french froxune_postbath_depressed_1e265e62:
 
     # p "I was suspicious before your bath... So you finally came to the frog realm for the big festival!"
-    p "Je me doutais de quelque chose avant ton bain... Donc tu es finalement venu·e dans le royaume des grenouilles pour le grand festvial !"
+    p "Je me doutais de quelque chose avant ton bain... Donc tu es finalement venu·e dans le royaume des grenouilles pour le grand festival !"
 
 # game/dialogue_froxune.rpy:187
 translate french froxune_postbath_depressed_0398b11a:
@@ -557,7 +557,7 @@ translate french froxune_postbath_depressed_2d8bce4f:
 translate french froxune_postbath_depressed_999421d7:
 
     # fe "Eh, I'm not sure I'll go tomorrow. I'm sure you're the only frog I can get along with."
-    fe "Eh... je ne suis plus si sûr·e pour demain. Il n'y a que toi avec qui je peux être."
+    fe "Eh... je ne suis plus si sûr·e pour demain. Tu es la seule grenouille avec laquelle je puisse m'entendre."
 
 # game/dialogue_froxune.rpy:190
 translate french froxune_postbath_depressed_a4ed92af:
@@ -612,7 +612,7 @@ translate french froxune_postbath_depressed_8cb9afb9:
 translate french froxune_postbath_depressed_41d805e8:
 
     # p "C'mon, you can do it! And if you have problem, come here and talk to me this time. It's been too long since we were able to see each other like this."
-    p "Oh, allez, tu peux le faire ! Si tu as des problèmes, reviens ici et parle-moi cette fois. Ça fait si longtemps que l'on ne s'était pas vu·es !"
+    p "Oh, allez, tu peux le faire ! Si tu as des problèmes, reviens ici et parle-moi, cette fois. Ça fait si longtemps que l'on ne s'était pas vu·es !"
 
 # game/dialogue_froxune.rpy:199
 translate french froxune_postbath_depressed_96dc08ea:

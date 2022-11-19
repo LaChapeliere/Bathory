@@ -10,7 +10,7 @@ init python:
             },
             "mellow": {
                 "title": _("A genius at the festival"),
-                "text": _("After refusing several invitations to speak at our annual festival, Frogeek the Magnificient have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the meantime, the Magnificient is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nibbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificient"),
+                "text": _("After refusing several invitations to speak at our annual festival, Frogeek the Magnificent have finally been convinced to share slivers of their wisdom in a public talk by the organisers. Their talk is scheduled on the last day of the festival, a priceless introduction to the Grand Final. Prepare to be dazzled by the brilliance of this disruptive spirit. In the meantime, the Magnificent is enjoying their stay in the well-appointed VIP quarters, kept well-entertained by the delicious nibbles provided by an in-house chef and the drama of their fellow stars. Article by Frogeek the Magnificent"),
                 "image": None
             },
             "laxative": {
@@ -48,7 +48,7 @@ Investigation led by your renowned Croâdler"""),
             },
             "depressed": {
                 "title": _("A new shop in town!"),
-                "text": _("""After opening a stand during the festival, Toadxune, a weird lake frog spirit with fortune telling powers decided to run their business permanently in our city.
+                "text": _("""After opening a stand during the festival, Froxune, a weird lake frog spirit with fortune telling powers decided to run their business permanently in our city.
 You can now know everything about your destiny for modest prices! But be ready because this toad is never at a loss for words, and are frankly harsh sometimes..."""),
                 "image": "/images/froxune/client froxune beginning.png"
             }
